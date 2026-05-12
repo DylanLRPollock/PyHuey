@@ -2,8 +2,8 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://pygpt.net                         #
-# GitHub:  https://github.com/szczyglis-dev/py-gpt   #
+# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
 # Updated Date: 2024.02.01 18:00:00                  #
@@ -51,3 +51,4 @@ class Changelog:
         self.window.ui.dialog['info.' + id] = InfoDialog(self.window, id)
         self.window.ui.dialog['info.' + id].setLayout(layout)
         self.window.ui.dialog['info.' + id].setWindowTitle(trans("dialog.changelog.title"))
+

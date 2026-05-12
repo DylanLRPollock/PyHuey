@@ -2,8 +2,8 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://pygpt.net                         #
-# GitHub:  https://github.com/szczyglis-dev/py-gpt   #
+# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
 # Updated Date: 2025.08.15 03:00:00                  #
@@ -97,4 +97,5 @@ def test_refresh_num(mock_window):
     note.get_notes_existence_around_month = MagicMock(return_value=1)
     note.refresh_num(2024, 1)
     mock_window.ui.calendar['select'].update_notes.assert_called_once()
+
 

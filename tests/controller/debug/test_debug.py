@@ -2,8 +2,8 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://pygpt.net                         #
-# GitHub:  https://github.com/szczyglis-dev/py-gpt   #
+# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
 # Updated Date: 2025.08.11 18:00:00                  #
@@ -128,3 +128,4 @@ def test_toggle(mock_window):
     debug.on_post_update.assert_called_with(True)
     debug.log.assert_called_with('debug.test toggled')
     debug.update.assert_called_with()
+

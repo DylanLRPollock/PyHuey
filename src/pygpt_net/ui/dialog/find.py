@@ -2,8 +2,8 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://pygpt.net                         #
-# GitHub:  https://github.com/szczyglis-dev/py-gpt   #
+# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
 # Updated Date: 2024.04.08 03:00:00                  #
@@ -27,3 +27,4 @@ class Find:
         id = 'find'
         self.window.ui.dialog[id] = FindDialog(self.window, id)
         self.window.ui.dialog[id].setWindowTitle(trans("dialog.find.title"))
+

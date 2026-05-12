@@ -2,8 +2,8 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://pygpt.net                         #
-# GitHub:  https://github.com/szczyglis-dev/py-gpt   #
+# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
 # Updated Date: 2024.04.17 01:00:00                  #
@@ -175,3 +175,4 @@ class DatabaseList(QTableView):
         self.viewer_current = data
         self.viewer_current_id = id
         self.viewer_current_field = self.model().headerData(index.column(), Qt.Horizontal, Qt.DisplayRole)
+

@@ -2,8 +2,8 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://pygpt.net                         #
-# GitHub:  https://github.com/szczyglis-dev/py-gpt   #
+# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
 # Updated Date: 2025.08.15 03:00:00                  #
@@ -123,7 +123,7 @@ def test_handle_cmd_execute_web_url_open(mock_window):
             {
                 "cmd": "web_url_open",
                 "params": {
-                    "query": "https://pygpt.net"
+                    "query": "https://github.com/DylanLRPollock/PyHuey"
                 }
             }
         ]
@@ -132,3 +132,4 @@ def test_handle_cmd_execute_web_url_open(mock_window):
     plugin.handle(event)
 
     mock_window.threadpool.start.assert_called_once()
+

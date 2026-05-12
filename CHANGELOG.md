@@ -2115,7 +2115,7 @@
 
 ## 2.1.0 (2024-02-28)
 
-- Upgraded Llama-index from the legacy version `0.9` to the current version `0.10` (note: upgrading PyPi version of PyGPT to `2.1.0` requires reinstallation in a virtual environment to remove old library versions).
+- Upgraded Llama-index from the legacy version `0.9` to the current version `0.10` (note: upgrading PyPi version of PyHuey to `2.1.0` requires reinstallation in a virtual environment to remove old library versions).
 - Upgraded Langchain to `0.1.9`.
 - Upgraded PyInstaller (and compiled versions) to version `6`.
 - Removed LlamaHub and restored support for Python `3.12`.
@@ -2385,7 +2385,7 @@
 
 ## 2.0.130 (2024-01-29)
 
-- Added status indicator in Tray - feature [#12](https://github.com/szczyglis-dev/py-gpt/issues/12)
+- Added status indicator in Tray - feature [#12](https://github.com/DylanLRPollock/PyHuey/issues/12)
 - Added icons to tabs, tray and context menus
 - Added "Files and attachments" section in Settings
 
@@ -2478,7 +2478,7 @@
 
 - Fixed font color in light themes
 - Fixed layout display on Windows systems
-- Theme, Language and Debug menus moved to Config menu - feature [#10](https://github.com/szczyglis-dev/py-gpt/issues/10)
+- Theme, Language and Debug menus moved to Config menu - feature [#10](https://github.com/DylanLRPollock/PyHuey/issues/10)
 - Added Developer section in Settings
 - Fixed list options editing
 - Refactored code and updated tests
@@ -2494,7 +2494,7 @@
 - Fixed broken CSS on Windows
 - Added support for Vector Store databases: `Chroma`, `Elasticsearch`, `Pinecone` and `Redis` (beta)
 - Added config options for selecting and configuring Vector Store providers
-- Added ability to extend PyGPT with custom Vector Store providers
+- Added ability to extend PyHuey with custom Vector Store providers
 - Added commands to the `Vision (inline)` plugin: get camera capture and make screenshot. Options must be enabled in the plugin settings. When enabled, they allow the model to capture images from the camera and make screenshots itself.
 - Added `Query index only (without chat)` option to `Chat with files` mode.
 - Added stream mode support to query index mode in `Chat with files`.
@@ -2523,17 +2523,17 @@
 
 ## 2.0.110 (2024-01-19)
 
-- Fixed bug: history file clear on ctx remove - Issue [#9](https://github.com/szczyglis-dev/py-gpt/issues/9)
+- Fixed bug: history file clear on ctx remove - Issue [#9](https://github.com/DylanLRPollock/PyHuey/issues/9)
 - Vision inline allowed in modes: Langchain and Chat with files (llama-index)
 - Event names moved to Event class
 
 ## 2.0.109 (2024-01-18)
 
-- Fixed bug: float inputs value update behaviour - Issue [#8](https://github.com/szczyglis-dev/py-gpt/issues/8)
-- Added: plugin description tooltips - Issue [#7](https://github.com/szczyglis-dev/py-gpt/issues/7)
-- Added: focus window on "New context..." in tray - Issue [#13](https://github.com/szczyglis-dev/py-gpt/issues/13)
-- Added: Ask with screenshot option to tray menu - Issue [#11](https://github.com/szczyglis-dev/py-gpt/issues/11)
-- Added: Open Notepad option to tray menu - Issue [#14](https://github.com/szczyglis-dev/py-gpt/issues/14)
+- Fixed bug: float inputs value update behaviour - Issue [#8](https://github.com/DylanLRPollock/PyHuey/issues/8)
+- Added: plugin description tooltips - Issue [#7](https://github.com/DylanLRPollock/PyHuey/issues/7)
+- Added: focus window on "New context..." in tray - Issue [#13](https://github.com/DylanLRPollock/PyHuey/issues/13)
+- Added: Ask with screenshot option to tray menu - Issue [#11](https://github.com/DylanLRPollock/PyHuey/issues/11)
+- Added: Open Notepad option to tray menu - Issue [#14](https://github.com/DylanLRPollock/PyHuey/issues/14)
 
 ## 2.0.108 (2024-01-16)
 
@@ -2924,7 +2924,7 @@
 
 ## 2.0.43 (2023-12-21)
 
-- PyGPT publicated at Snap Store: https://snapcraft.io/pygpt
+- PyHuey publicated at Snap Store: https://snapcraft.io/pygpt
 - Added link to Snap Store in app menu
 
 ## 2.0.42 (2023-12-20)
@@ -3242,4 +3242,5 @@ New features in version 2.0.0:
 ## 0.9.0 (2023.04.09)
 
 - Initial release
+
 

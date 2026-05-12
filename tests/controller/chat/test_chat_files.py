@@ -2,8 +2,8 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://pygpt.net                         #
-# GitHub:  https://github.com/szczyglis-dev/py-gpt   #
+# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
 # Updated Date: 2024.01.02 11:00:00                  #
@@ -29,3 +29,4 @@ def test_upload(mock_window):
     mock_window.core.attachments.make_json_list = MagicMock(return_value=json_list)
 
     assert files.upload('assistant') == json_list
+

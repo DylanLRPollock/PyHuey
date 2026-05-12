@@ -2,8 +2,8 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://pygpt.net                         #
-# GitHub:  https://github.com/szczyglis-dev/py-gpt   #
+# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
 # Updated Date: 2025.08.15 23:00:00                  #
@@ -255,3 +255,4 @@ def test_save_all(mock_window):
     presets.provider = MagicMock()
     presets.save_all()
     presets.provider.save_all.assert_called_once_with(presets.items)
+

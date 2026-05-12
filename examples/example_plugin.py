@@ -2,8 +2,8 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://pygpt.net                         #
-# GitHub:  https://github.com/szczyglis-dev/py-gpt   #
+# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
 # Updated Date: 2024.11.20 03:00:00                  #
@@ -248,3 +248,4 @@ class Plugin(BasePlugin):
 
                     # handle reply response (send result to the model)
                     self.reply(response, ctx)  # from 2.1.28 use only reply() method for sending responses
+

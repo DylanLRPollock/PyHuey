@@ -2,8 +2,8 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://pygpt.net                         #
-# GitHub:  https://github.com/szczyglis-dev/py-gpt   #
+# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
 # Updated Date: 2025.06.29 18:00:00                  #
@@ -130,3 +130,4 @@ def test_get_version(mock_window):
     models.provider = MagicMock()
     models.provider.get_version.return_value = "1.0.0"
     assert models.get_version() == "1.0.0"
+

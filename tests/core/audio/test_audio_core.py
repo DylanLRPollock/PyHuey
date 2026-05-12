@@ -2,8 +2,8 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://pygpt.net                         #
-# GitHub:  https://github.com/szczyglis-dev/py-gpt   #
+# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
 # Updated Date: 2025.07.14 00:00:00                  #
@@ -21,3 +21,4 @@ def test_clean_text():
     text = 'speak this<tool>>ignore this</tool> only'
     res = audio.clean_text(text)
     assert res == 'speak this only'
+

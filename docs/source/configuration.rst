@@ -454,7 +454,7 @@ These configuration files are located in the user's work directory within the fo
 
 .. code-block:: ini
 
-   {HOME_DIR}/.config/pygpt-net/
+   {HOME_DIR}/.config/pyhuey/
 
 
 Manual configuration
@@ -463,7 +463,7 @@ You can manually edit the configuration files in this directory (this is your wo
 
 .. code-block:: ini
 
-   {HOME_DIR}/.config/pygpt-net/
+   {HOME_DIR}/.config/pyhuey/
 
 * ``assistants.json`` - stores the list of assistants.
 * ``attachments.json`` - stores the list of current attachments.
@@ -526,7 +526,7 @@ This allows you to overwrite language files or CSS styles in a very simple way -
 
 .. code-block:: ini
 
-   {HOME_DIR}/.config/pygpt-net/
+   {HOME_DIR}/.config/pyhuey/
 
 
 * `locale` - a directory for locales in ``.ini`` format.
@@ -747,7 +747,7 @@ https://docs.llamaindex.ai/en/stable/api_reference/storage/vector_store.html
 
 Which keyword arguments are passed to providers?
 
-For ``ChromaVectorStore`` and ``SimpleVectorStore`` all arguments are set by PyGPT and passed internally (you do not need to configure anything). 
+For ``ChromaVectorStore`` and ``SimpleVectorStore`` all arguments are set by PyHuey and passed internally (you do not need to configure anything). 
 For other providers you can provide these arguments:
 
 **ElasticsearchStore**
@@ -792,4 +792,4 @@ If you want to only query index (without chat) you can enable ``Query index only
 
 You can create a custom vector store provider or data loader for your data and develop a custom launcher for the application. 
 
-See the section ``Extending PyGPT / Adding a custom Vector Store provider`` for more details.
+See the section ``Extending PyHuey / Adding a custom Vector Store provider`` for more details.

@@ -2,20 +2,20 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://pygpt.net                         #
-# GitHub:  https://github.com/szczyglis-dev/py-gpt   #
+# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
 # Updated Date: 2026.01.21 01:00:00                  #
 # ================================================== #
 
-LINK_GITHUB = "https://github.com/szczyglis-dev/py-gpt"
+LINK_GITHUB = "https://github.com/DylanLRPollock/PyHuey"
 LINK_DONATE = "https://www.buymeacoffee.com/szczyglis"
 
 # -------------------------------------------------- #
 # Lightweight splash window (separate process)
 # -------------------------------------------------- #
-def _splash_main(conn, title="PyGPT", message="Loading…"):
+def _splash_main(conn, title="PyHuey", message="Loading…"):
     """
     Minimal splash process using PySide6. Runs its own event loop and
     listens for commands on a Pipe: {"type": "msg", "text": "..."} or {"type": "quit"}.
@@ -456,7 +456,7 @@ class _Preloader:
             self._proc = None
 
 
-def _start_preloader(title="PyGPT", message="Loading…"):
+def _start_preloader(title="PyHuey", message="Loading…"):
     """
     Start splash as a separate process using 'spawn' on every OS.
     Returns a _Preloader controller or None if failed.

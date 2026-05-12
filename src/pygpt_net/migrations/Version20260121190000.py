@@ -2,8 +2,8 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://pygpt.net                         #
-# GitHub:  https://github.com/szczyglis-dev/py-gpt   #
+# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
 # Updated Date: 2026.01.21 20:00:00                  #
@@ -23,3 +23,4 @@ class Version20260121190000(BaseMigration):
         conn.execute(text("""
         ALTER TABLE notepad ADD COLUMN highlights_json TEXT;
         """))
+

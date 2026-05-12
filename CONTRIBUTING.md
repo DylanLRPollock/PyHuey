@@ -2,13 +2,13 @@
 
 **Project:** PyHuey  
 **Parent project:** Monkey-Head-Project / HueyOS  
-**Fork basis:** PyGPT  
+**Fork basis:** PyHuey  
 **Current alignment:** v101.1 — PyHuey cockpit alignment  
 **Maintainer:** Dylan L.R. Pollock
 
 Thank you for your interest in contributing.
 
-PyHuey is the cockpit tailored for the **Monkey-Head-Project / HueyOS**. It is forked from **PyGPT** and adapted as a project-controlled operator, build, and integration surface for Huey.
+PyHuey is the cockpit tailored for the **Monkey-Head-Project / HueyOS**. It is forked from **PyHuey** and adapted as a project-controlled operator, build, and integration surface for Huey.
 
 This document explains how to contribute safely and coherently while preserving the boundaries of the project.
 
@@ -22,7 +22,7 @@ Before submitting a change:
 - Keep **Python 3.12.x** as fallback only when dependency reality forces it.
 - Work from an isolated virtual environment.
 - Keep PRs focused and reviewable.
-- Preserve upstream PyGPT attribution and license/provenance files.
+- Preserve upstream PyHuey attribution and license/provenance files.
 - Add or update tests when behavior changes.
 - Update docs when users, operators, or contributors will notice the change.
 - Do not commit secrets, local profiles, API keys, context databases, private logs, or local scratch output.
@@ -32,7 +32,7 @@ Before submitting a change:
 
 ## What PyHuey is
 
-PyHuey is a PyGPT-derived cockpit for the Monkey-Head-Project / HueyOS.
+PyHuey is a PyHuey-derived cockpit for the Monkey-Head-Project / HueyOS.
 
 It may support:
 
@@ -76,7 +76,7 @@ Preferred v101.1 layout:
 ```text
 Monkey-Head-Project/
 ├── integrations/
-│   └── pyhuey/              # PyGPT fork adapted as PyHuey
+│   └── pyhuey/              # PyHuey fork adapted as PyHuey
 ├── platform/
 │   └── windows/
 │       └── huey/            # Windows 11 Pro cockpit/build/runtime material
@@ -102,7 +102,7 @@ Do not put Windows cockpit code under `platform/windows/hueybody/`. `Huey Body` 
 | Fork path | `integrations/pyhuey/` |
 | Windows path | `platform/windows/huey/` |
 
-PyHuey may still run on Linux/macOS where inherited PyGPT compatibility supports it, but the active project cockpit branch is Windows 11 Pro + Python 3.13.
+PyHuey may still run on Linux/macOS where inherited PyHuey compatibility supports it, but the active project cockpit branch is Windows 11 Pro + Python 3.13.
 
 ---
 
@@ -205,7 +205,7 @@ If a PyHuey entrypoint exists:
 pyhuey
 ```
 
-If the upstream PyGPT entrypoint is still present during migration:
+If the upstream PyHuey entrypoint is still present during migration:
 
 ```bash
 pygpt
@@ -227,7 +227,7 @@ Contributions may include:
 - docs and Read the Docs improvements;
 - tests and CI fixes;
 - security hardening;
-- PyGPT upstream merge/rebase work;
+- PyHuey upstream merge/rebase work;
 - provider, vector-store, and plugin integration cleanup.
 
 Keep each pull request focused. Avoid mixing a rename pass, dependency upgrade, GUI change, security change, and docs rewrite in one PR.
@@ -274,7 +274,7 @@ A good PR should include:
 - test commands run;
 - screenshots for visible GUI changes;
 - docs updates where relevant;
-- note about upstream PyGPT provenance if upstream files were modified;
+- note about upstream PyHuey provenance if upstream files were modified;
 - note about any dependency freeze changes;
 - note about any security implications.
 
@@ -291,7 +291,7 @@ Before requesting review:
 - [ ] No private profiles, context DBs, logs, or local scratch files are included.
 - [ ] Docs are updated for user-facing changes.
 - [ ] Security-sensitive behavior is called out.
-- [ ] Upstream PyGPT license/provenance files remain intact.
+- [ ] Upstream PyHuey license/provenance files remain intact.
 
 ---
 
@@ -313,7 +313,7 @@ A good bug report includes:
 - actual behavior;
 - logs with secrets redacted;
 - screenshots for GUI issues;
-- whether the issue also exists in upstream PyGPT, if known.
+- whether the issue also exists in upstream PyHuey, if known.
 
 Do not include API keys, OAuth tokens, SSH keys, cookies, `.env` files, private context databases, or full private logs.
 
@@ -398,7 +398,7 @@ Run only the tools that are actually configured for the repository or PR branch.
 
 ## Exception-handling standard
 
-PyHuey inherits a large PyGPT codebase, including broad exception handlers. Do not make this worse.
+PyHuey inherits a large PyHuey codebase, including broad exception handlers. Do not make this worse.
 
 Rules for new or touched code:
 
@@ -426,7 +426,7 @@ logger.debug(f"Failed to configure font {name}: {exc}")
 
 ## Bandit and security scanning
 
-PyHuey may carry inherited PyGPT Bandit findings. Treat these as security debt, not as false success or immediate panic.
+PyHuey may carry inherited PyHuey Bandit findings. Treat these as security debt, not as false success or immediate panic.
 
 Recommended workflow:
 
@@ -511,9 +511,9 @@ Documentation should preserve the v101.1 boundary:
 
 ---
 
-## Upstream PyGPT relationship
+## Upstream PyHuey relationship
 
-PyHuey is forked from PyGPT. Preserve provenance.
+PyHuey is forked from PyHuey. Preserve provenance.
 
 When modifying upstream-derived files:
 
@@ -595,7 +595,7 @@ If a disagreement is architectural, explain the layer boundary and propose a tes
 
 ## Licensing
 
-PyHuey inherits upstream PyGPT provenance and must preserve upstream license files and notices.
+PyHuey inherits upstream PyHuey provenance and must preserve upstream license files and notices.
 
 Monkey-Head-Project code is GPLv3 where applicable unless a specific file says otherwise. Documentation and media may have separate licensing.
 
@@ -620,3 +620,4 @@ For project-boundary questions, use the current README and master plan as the so
 - LabTech = external operator/archive/ingress layer.
 
 Thank you for helping improve PyHuey and the Monkey-Head-Project.
+

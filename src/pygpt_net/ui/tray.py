@@ -2,8 +2,8 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://pygpt.net                         #
-# GitHub:  https://github.com/szczyglis-dev/py-gpt   #
+# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
 # Updated Date: 2025.08.24 23:00:00                  #
@@ -47,7 +47,7 @@ class Tray:
         if not self.is_tray:
             return
         self.icon.showMessage(
-            f"PyGPT: {title}",
+            f"PyHuey: {title}",
             msg,
             getattr(QSystemTrayIcon, icon, QSystemTrayIcon.Information),
         )
@@ -72,7 +72,7 @@ class Tray:
             ui.get_tray_icon(w.STATE_IDLE),
             app,
         )
-        self.icon.setToolTip(f"PyGPT {w.meta['version']} ({w.meta['build'].replace('.', '-')})")
+        self.icon.setToolTip(f"PyHuey {w.meta['version']} ({w.meta['build'].replace('.', '-')})")
 
         action = QAction(trans("action.open"), w)
         action.setIcon(QIcon(":/icons/apps.svg"))

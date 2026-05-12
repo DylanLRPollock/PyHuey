@@ -2,8 +2,8 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://pygpt.net                         #
-# GitHub:  https://github.com/szczyglis-dev/py-gpt   #
+# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
 # Updated Date: 2025.08.15 00:00:00                  #
@@ -153,7 +153,7 @@ class Worker(BaseWorker):
             raise RuntimeError("Missing access token. Complete Facebook OAuth first.")
         return {
             "Authorization": f"Bearer {tok}",
-            "User-Agent": "pygpt-net-facebook-plugin/1.0",
+            "User-Agent": "pyhuey-facebook-plugin/1.0",
             "Accept": "application/json",
         }
 

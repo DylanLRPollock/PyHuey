@@ -2,8 +2,8 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://pygpt.net                         #
-# GitHub:  https://github.com/szczyglis-dev/py-gpt   #
+# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
 # Updated Date: 2024.01.06 04:00:00                  #
@@ -36,3 +36,4 @@ class Version20240106060000(BaseMigration):
             is_important BOOLEAN NOT NULL CHECK (is_deleted IN (0, 1)),
             is_deleted BOOLEAN NOT NULL CHECK (is_deleted IN (0, 1))
         );"""))
+

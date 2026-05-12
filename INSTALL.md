@@ -4,11 +4,11 @@
 
 You can download compiled versions for `Linux` and `Windows` (10/11). 
 
-Download the `.msi` or `tar.gz` for the appropriate OS from the download page at https://pygpt.net and then extract files from the archive and run the application.
+Download the `.msi` or `tar.gz` for the appropriate OS from the download page at https://github.com/DylanLRPollock/PyHuey and then extract files from the archive and run the application.
 
 ## Microsoft Store (Windows)
 
-For Windows 10/11, you can install **PyGPT** directly from Microsoft Store:
+For Windows 10/11, you can install **PyHuey** directly from Microsoft Store:
 
 [![Get it from Microsoft Store](https://get.microsoft.com/images/en-us%20dark.svg)](https://apps.microsoft.com/detail/XP99R4MX3X65VQ)
 
@@ -16,17 +16,17 @@ Link to MS Store: https://apps.microsoft.com/detail/XP99R4MX3X65VQ
 
 ## AppImage (Linux)
 
-You can download the latest **PyGPT** `AppImage` for Linux from the release page:
+You can download the latest **PyHuey** `AppImage` for Linux from the release page:
 
-Releases: https://github.com/szczyglis-dev/py-gpt/releases
+Releases: https://github.com/DylanLRPollock/PyHuey/releases
 
 To manage future updates use:
 
-```appimageupdatetool ./PyGPT-X.X.X-x86_64.AppImage```
+```appimageupdatetool ./PyHuey-X.X.X-x86_64.AppImage```
 
 ## Snap Store (Linux)
 
-You can install **PyGPT** directly from Snap Store:
+You can install **PyHuey** directly from Snap Store:
 
 ```commandline
 sudo snap install pygpt
@@ -66,7 +66,7 @@ source venv/bin/activate
 2. Install from PyPi:
 
 ``` commandline
-pip install pygpt-net
+pip install pyhuey
 ```
 
 3. Once installed run the command to start the application:
@@ -85,8 +85,8 @@ the Python interpreter (version `3.10` or higher).
 1. Clone git repository or download .zip file:
 
 ```commandline
-git clone https://github.com/szczyglis-dev/py-gpt.git
-cd py-gpt
+git clone https://github.com/DylanLRPollock/PyHuey.git
+cd pyhuey
 ```
 
 2. Create virtual environment:
@@ -113,8 +113,8 @@ python3 run.py
 1. Clone git repository or download .zip file:
 
 ```commandline
-git clone https://github.com/szczyglis-dev/py-gpt.git
-cd py-gpt
+git clone https://github.com/DylanLRPollock/PyHuey.git
+cd pyhuey
 ```
 
 2. Install Poetry (if not installed):
@@ -190,7 +190,7 @@ sudo snap connect pygpt:camera
 
 **Snap and AppArmor permission denied**
 
-Snap installs AppArmor profiles for each application by default. The profile for PyGPT is created at:
+Snap installs AppArmor profiles for each application by default. The profile for PyHuey is created at:
 
 `/var/lib/snapd/apparmor/profiles/snap.pygpt.pygpt`
 
@@ -223,7 +223,7 @@ On Windows, the proper functioning requires the installation of the `VC++ Redist
 
 https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist
 
-The libraries from this environment are used by `PySide6` - one of the base packages used by PyGPT. 
+The libraries from this environment are used by `PySide6` - one of the base packages used by PyHuey. 
 The absence of the installed libraries may cause display errors or completely prevent the application from running.
 
 It may also be necessary to add the path `C:\path\to\venv\Lib\python3.x\site-packages\PySide6` to the `PATH` variable.

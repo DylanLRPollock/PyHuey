@@ -2,8 +2,8 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://pygpt.net                         #
-# GitHub:  https://github.com/szczyglis-dev/py-gpt   #
+# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
 # Updated Date: 2025.08.03 14:00:00                  #
@@ -72,3 +72,4 @@ def test_open_in_file_manager(mock_window):
     files.open_in_file_manager = MagicMock()
     files.open_dir('test')
     files.open_in_file_manager.assert_called_once_with('test', False)
+

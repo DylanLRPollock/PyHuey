@@ -2,8 +2,8 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://pygpt.net                         #
-# GitHub:  https://github.com/szczyglis-dev/py-gpt   #
+# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
 # Updated Date: 2025.06.23 19:00:00                  #
@@ -94,3 +94,4 @@ class Patch:
         self.provider.create(meta)  # create new meta and get its new ID
         for item in items:
             self.provider.storage.insert_item(meta, item)  # append items to new meta
+

@@ -2,8 +2,8 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://pygpt.net                         #
-# GitHub:  https://github.com/szczyglis-dev/py-gpt   #
+# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
 # Updated Date: 2024.11.21 02:00:00                  #
@@ -116,3 +116,4 @@ def test_send_assistant(mock_window):
         mock_window.controller.ctx.update.assert_called_once_with(reload=True, all=False)  # should update ctx list
         mock_window.controller.chat.common.lock_input.assert_called_once()  # should lock input
         mock_window.dispatch.assert_called()
+

@@ -2,8 +2,8 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://pygpt.net                         #
-# GitHub:  https://github.com/szczyglis-dev/py-gpt   #
+# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
 # Updated Date: 2024.12.14 08:00:00                  #
@@ -173,3 +173,4 @@ class Finder:
             current = self.parent.current_match_index if self.parent.current_match_index >= 0 else 0
             total_found = self.parent.matches
         self.window.ui.nodes['dialog.find.counter'].setText("{}/{}".format(current, total_found))
+

@@ -2,8 +2,8 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://pygpt.net                         #
-# GitHub:  https://github.com/szczyglis-dev/py-gpt   #
+# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
 # Updated Date: 2024.01.03 19:00:00                  #
@@ -91,39 +91,39 @@ def test_to_workdir(mock_window):
     filesystem = Filesystem(mock_window)
 
     if platform.system() == 'Windows':
-        filesystem.window.core.config.path = 'C:\\Users\\new_user\\.config\\pygpt-net'
+        filesystem.window.core.config.path = 'C:\\Users\\new_user\\.config\\pyhuey'
         mock_window.core.platforms.is_windows = MagicMock(return_value=True)
-        path = filesystem.to_workdir('C:\\Users\\old_user\\.config\\pygpt-net\\data\\test_file')
-        assert path == 'C:\\Users\\new_user\\.config\\pygpt-net\\data\\test_file'
+        path = filesystem.to_workdir('C:\\Users\\old_user\\.config\\pyhuey\\data\\test_file')
+        assert path == 'C:\\Users\\new_user\\.config\\pyhuey\\data\\test_file'
     else:
-        filesystem.window.core.config.path = '/home/new_user/.config/pygpt-net'
+        filesystem.window.core.config.path = '/home/new_user/.config/pyhuey'
         mock_window.core.platforms.is_windows = MagicMock(return_value=False)
-        path = filesystem.to_workdir('/home/old_user/.config/pygpt-net/data/test_file')
-        assert path == '/home/new_user/.config/pygpt-net/data/test_file'
+        path = filesystem.to_workdir('/home/old_user/.config/pyhuey/data/test_file')
+        assert path == '/home/new_user/.config/pyhuey/data/test_file'
 
 
 def test_extract_local_url(mock_window):
     """Test extract local url"""
     filesystem = Filesystem(mock_window)
     if platform.system() == 'Windows':
-        filesystem.window.core.config.path = 'C:\\Users\\new_user\\.config\\pygpt-net'
+        filesystem.window.core.config.path = 'C:\\Users\\new_user\\.config\\pyhuey'
         mock_window.core.platforms.is_windows = MagicMock(return_value=True)
-        url, path = filesystem.extract_local_url('C:\\Users\\old_user\\.config\\pygpt-net\\data\\test_file')
-        assert url == 'file:///C:\\Users\\new_user\\.config\\pygpt-net\\data\\test_file'
-        assert path == 'C:\\Users\\new_user\\.config\\pygpt-net\\data\\test_file'
+        url, path = filesystem.extract_local_url('C:\\Users\\old_user\\.config\\pyhuey\\data\\test_file')
+        assert url == 'file:///C:\\Users\\new_user\\.config\\pyhuey\\data\\test_file'
+        assert path == 'C:\\Users\\new_user\\.config\\pyhuey\\data\\test_file'
     else:
-        filesystem.window.core.config.path = '/home/new_user/.config/pygpt-net'
+        filesystem.window.core.config.path = '/home/new_user/.config/pyhuey'
         mock_window.core.platforms.is_windows = MagicMock(return_value=False)
-        url, path = filesystem.extract_local_url('/home/old_user/.config/pygpt-net/data/test_file')
-        assert url == 'file:///home/new_user/.config/pygpt-net/data/test_file'
-        assert path == '/home/new_user/.config/pygpt-net/data/test_file'
+        url, path = filesystem.extract_local_url('/home/old_user/.config/pyhuey/data/test_file')
+        assert url == 'file:///home/new_user/.config/pyhuey/data/test_file'
+        assert path == '/home/new_user/.config/pyhuey/data/test_file'
 
 
 def test_extract_local_url_none(mock_window):
     """Test extract local url"""
     filesystem = Filesystem(mock_window)
     mock_window.core.platforms.is_windows = MagicMock(return_value=False)
-    filesystem.window.core.config.path = '/home/user/.config/pygpt-net'
+    filesystem.window.core.config.path = '/home/user/.config/pyhuey'
 
     url, path = filesystem.extract_local_url('http://www.google.com/file.png')
     assert url == 'http://www.google.com/file.png'
@@ -153,5 +153,6 @@ def test_is_schema(mock_window):
 
     result = filesystem.is_schema('test_file')
     assert result is False
+
 
 

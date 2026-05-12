@@ -2,8 +2,8 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://pygpt.net                         #
-# GitHub:  https://github.com/szczyglis-dev/py-gpt   #
+# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
 # Updated Date: 2025.08.07 22:00:00                  #
@@ -127,4 +127,5 @@ class ElevenLabsTextToSpeech(BaseProvider):
         api_key = self.plugin.get_option_value("eleven_labs_api_key")
         if api_key is None or api_key == "":
             return "Eleven Labs API KEY is not set. Please set it in plugin settings."
+
 

@@ -8,4 +8,5 @@
 #   pip install -r requirements.txt
 #   pip install -r requirements-local-redis-wheel.txt
 #
-llama-index-vector-stores-redis @ file:///C:/Users/admin/Desktop/HueyOS/Build/PyGPT/RedisPatch/wheel-out/llama_index_vector_stores_redis-0.8.0-py3-none-any.whl#sha256=2a09961603a50f9148b4632e6d40abb23b990f35df0f530f33a7c710625cf31a
+llama-index-vector-stores-redis @ file:///C:/Users/admin/Desktop/HueyOS/Build/PyHuey/RedisPatch/wheel-out/llama_index_vector_stores_redis-0.8.0-py3-none-any.whl#sha256=2a09961603a50f9148b4632e6d40abb23b990f35df0f530f33a7c710625cf31a
+

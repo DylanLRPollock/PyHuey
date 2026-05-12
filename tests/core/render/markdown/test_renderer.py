@@ -2,8 +2,8 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://pygpt.net                         #
-# GitHub:  https://github.com/szczyglis-dev/py-gpt   #
+# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
 # Updated Date: 2025.07.14 00:00:00                  #
@@ -304,3 +304,4 @@ def test_get_input_node(mock_window):
     render = Render(mock_window)
     mock_window.ui.nodes['input'] = MagicMock()
     assert render.get_input_node() == mock_window.ui.nodes['input']
+

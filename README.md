@@ -5,13 +5,13 @@
 </p>
 
 <p align="center">
-  <em>Forked from PyGPT and adapted as a project-controlled operator surface for Huey.</em>
+  <em>Forked from PyHuey and adapted as a project-controlled operator surface for Huey.</em>
 </p>
 
 <p align="center">
   <img alt="Project" src="https://img.shields.io/badge/project-Monkey--Head--Project-purple">
   <img alt="System" src="https://img.shields.io/badge/system-HueyOS-blue">
-  <img alt="Fork basis" src="https://img.shields.io/badge/forked%20from-PyGPT-6f42c1">
+  <img alt="Fork basis" src="https://img.shields.io/badge/forked%20from-PyHuey-6f42c1">
   <img alt="Target Python" src="https://img.shields.io/badge/python-3.13.x-blue">
   <img alt="Status" src="https://img.shields.io/badge/status-cockpit%20alignment-orange">
 </p>
@@ -20,11 +20,11 @@
 
 ## What PyHuey is
 
-**PyHuey** is the project-controlled fork of **PyGPT** for Dylan L.R. Pollock’s **Monkey-Head-Project** and **HueyOS** work.
+**PyHuey** is the project-controlled fork of **PyHuey** for Dylan L.R. Pollock’s **Monkey-Head-Project** and **HueyOS** work.
 
 It is a cockpit, integration surface, and operator-side tool layer for working with Huey-related AI providers, local tools, files, profiles, prompts, plugins, vector indexes, and build/runtime experiments.
 
-PyHuey is meant to make the upstream PyGPT desktop assistant useful inside the HueyOS project structure without pretending that a GUI cockpit is the same thing as Huey’s internal sovereignty.
+PyHuey is meant to make the upstream PyHuey desktop assistant useful inside the HueyOS project structure without pretending that a GUI cockpit is the same thing as Huey’s internal sovereignty.
 
 In the current v101.1 project framing:
 
@@ -62,24 +62,24 @@ controlled MP3 fixture
 
 ## Fork basis and attribution
 
-PyHuey is forked from **PyGPT**, the open-source desktop AI assistant.
+PyHuey is forked from **PyHuey**, the open-source desktop AI assistant.
 
-Upstream PyGPT provides a broad desktop AI interface with chat, files, LlamaIndex indexing, plugins, provider integrations, agents, speech, vision, tool execution, and local/remote model support.
+Upstream PyHuey provides a broad desktop AI interface with chat, files, LlamaIndex indexing, plugins, provider integrations, agents, speech, vision, tool execution, and local/remote model support.
 
 PyHuey keeps attribution to the upstream project and should preserve upstream license files, copyright notices, and provenance. Changes made for the Monkey-Head-Project should be documented clearly as PyHuey-specific modifications.
 
 Useful upstream references:
 
-- PyGPT website: <https://pygpt.net>
-- PyGPT documentation: <https://pygpt.readthedocs.io>
-- PyGPT upstream repository: <https://github.com/szczyglis-dev/py-gpt>
-- PyGPT package: <https://pypi.org/project/pygpt-net>
+- PyHuey website: <https://github.com/DylanLRPollock/PyHuey>
+- PyHuey documentation: <https://pygpt.readthedocs.io>
+- PyHuey upstream repository: <https://github.com/DylanLRPollock/PyHuey>
+- PyHuey package: <https://pypi.org/project/pyhuey>
 
 ## Current project status
 
 PyHuey is currently a **v101.1 cockpit-alignment fork**.
 
-The working purpose is to adapt PyGPT into a controlled Huey cockpit while preserving the v101.1 scope lock:
+The working purpose is to adapt PyHuey into a controlled Huey cockpit while preserving the v101.1 scope lock:
 
 - Huey Brain V1 stays on the Lenovo Legion Go.
 - PyHuey stays on the LabTech / cockpit side.
@@ -94,7 +94,7 @@ Recommended repository layout:
 ```text
 Monkey-Head-Project/
 ├── integrations/
-│   └── pyhuey/              # PyGPT fork adapted as PyHuey
+│   └── pyhuey/              # PyHuey fork adapted as PyHuey
 ├── platform/
 │   └── windows/
 │       └── huey/            # Windows 11 Pro cockpit/build/runtime material
@@ -107,7 +107,7 @@ Monkey-Head-Project/
 
 ## Why PyHuey exists
 
-Upstream PyGPT is a general-purpose desktop AI assistant.
+Upstream PyHuey is a general-purpose desktop AI assistant.
 
 The Monkey-Head-Project needs a narrower cockpit that can be shaped around:
 
@@ -156,7 +156,7 @@ PyHuey must not be allowed to obscure the simple V1 proof target.
 
 ## Core inherited capabilities
 
-PyHuey inherits broad capability areas from upstream PyGPT. As the fork is stabilized, each inherited capability should be reviewed and either kept, adapted, disabled, or documented as out-of-scope for the Huey cockpit.
+PyHuey inherits broad capability areas from upstream PyHuey. As the fork is stabilized, each inherited capability should be reviewed and either kept, adapted, disabled, or documented as out-of-scope for the Huey cockpit.
 
 Inherited capability areas include:
 
@@ -188,10 +188,10 @@ The PyHuey fork should gradually standardize the following:
 
 ### 1. Identity and naming
 
-- Replace user-facing PyGPT branding with PyHuey where appropriate.
+- Replace user-facing PyHuey branding with PyHuey where appropriate.
 - Preserve upstream attribution and license notices.
 - Use “PyHuey” for the cockpit fork.
-- Use “PyGPT” only for upstream provenance, package lineage, and compatibility notes.
+- Use “PyHuey” only for upstream provenance, package lineage, and compatibility notes.
 
 ### 2. Project profiles
 
@@ -380,7 +380,7 @@ Do not treat `L:` or other fast scratch/runtime volumes as source of truth unles
 
 ## Linux notes
 
-Linux remains relevant for the Huey Brain path and for upstream PyGPT compatibility.
+Linux remains relevant for the Huey Brain path and for upstream PyHuey compatibility.
 
 For Debian/Ubuntu GUI dependencies, PySide/Qt and audio may require system packages. Useful packages may include:
 
@@ -393,7 +393,7 @@ These packages are host dependencies, not Python requirements.
 
 ## API keys and local models
 
-PyHuey may use API keys for providers such as OpenAI, Anthropic, Google, xAI, Perplexity, OpenRouter, and others inherited from upstream PyGPT support.
+PyHuey may use API keys for providers such as OpenAI, Anthropic, Google, xAI, Perplexity, OpenRouter, and others inherited from upstream PyHuey support.
 
 Recommended rule:
 
@@ -489,7 +489,7 @@ Success means:
 
 - README is PyHuey-specific;
 - user-facing name is PyHuey;
-- upstream PyGPT references remain only as provenance or compatibility notes;
+- upstream PyHuey references remain only as provenance or compatibility notes;
 - launcher behavior is documented.
 
 ### Milestone 3 — HueyOS profile
@@ -529,8 +529,8 @@ Success means:
 | Huey Brain | Active V1 cognition/orchestration node; Lenovo Legion Go |
 | Huey Body | Physical embodiment platform; V2+ for current scope |
 | LabTech | External operator/archive/ingress/recovery layer |
-| PyHuey | Project-controlled PyGPT fork; Huey cockpit |
-| PyGPT | Upstream desktop AI assistant that PyHuey is forked from |
+| PyHuey | Project-controlled PyHuey fork; Huey cockpit |
+| PyHuey | Upstream desktop AI assistant that PyHuey is forked from |
 | HIMS | Future Huey Internal Messaging System |
 | ThunderMail | Future mail-style delivery layer inside HIMS |
 | The Farm | Future pooled-compute expansion body |
@@ -550,7 +550,7 @@ Before opening a pull request or promoting a local change, check:
 
 ## License and provenance
 
-PyHuey is forked from PyGPT and must preserve upstream license/provenance materials.
+PyHuey is forked from PyHuey and must preserve upstream license/provenance materials.
 
 Monkey-Head-Project code is GPLv3 where applicable. Documentation and media licensing may differ by repository policy. Keep license files and notices with the relevant source trees.
 
@@ -560,7 +560,7 @@ Do not remove upstream notices during rename work.
 
 PyHuey is the cockpit.
 
-It exists so the Monkey-Head-Project can use a powerful PyGPT-derived desktop surface without collapsing the project’s architecture.
+It exists so the Monkey-Head-Project can use a powerful PyHuey-derived desktop surface without collapsing the project’s architecture.
 
 Huey Brain V1 remains the constrained proof.
 
@@ -569,3 +569,4 @@ Huey Body remains real but paused.
 HIMS remains doctrine until implemented.
 
 PyHuey helps Dylan operate, test, inspect, and build — it does not become Huey.
+

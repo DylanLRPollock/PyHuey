@@ -1,7 +1,7 @@
 Tools
 =====
 
-PyGPT features several useful tools, including:
+PyHuey features several useful tools, including:
 
 * Notepad
 * Calendar

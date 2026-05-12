@@ -2,8 +2,8 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://pygpt.net                         #
-# GitHub:  https://github.com/szczyglis-dev/py-gpt   #
+# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
 # Updated Date: 2025.12.29 21:00:00                  #
@@ -34,9 +34,9 @@ class UpdateDialog(BaseDialog):
         self.setWindowTitle(trans('update.title'))
 
         version = self.window.meta['version']
-        self.cmd_pip = "pip install --upgrade pygpt-net"
+        self.cmd_pip = "pip install --upgrade pyhuey"
         self.cmd_snap = "sudo snap refresh pygpt"
-        self.cmd_appimage = f"appimageupdatetool ./PyGPT-{version}-x86_64.AppImage"
+        self.cmd_appimage = f"appimageupdatetool ./PyHuey-{version}-x86_64.AppImage"
 
         # www
         self.www = QPushButton(trans('update.download'))
@@ -214,3 +214,4 @@ class UpdateDialog(BaseDialog):
         # show snap store button
         if self.window.core.platforms.is_linux():
             self.snap_store.setVisible(True)
+

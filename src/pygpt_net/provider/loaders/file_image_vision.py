@@ -2,8 +2,8 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://pygpt.net                         #
-# GitHub:  https://github.com/szczyglis-dev/py-gpt   #
+# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
 # Updated Date: 2025.08.06 01:00:00                  #
@@ -51,3 +51,4 @@ class Loader(BaseLoader):
         if self.window is not None:
             args["use_local"] = self.window.core.config.get("llama.hub.loaders.use_local", False)
         return ImageVisionLLMReader(**args)
+

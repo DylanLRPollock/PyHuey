@@ -5,16 +5,16 @@ Links
 ------
 
 **Official website:**
-https://pygpt.net
+https://github.com/DylanLRPollock/PyHuey
 
 **Support and donate:** 
-https://pygpt.net/#donate
+https://github.com/DylanLRPollock/PyHuey/#donate
 
 **GitHub:**
-https://github.com/szczyglis-dev/py-gpt
+https://github.com/DylanLRPollock/PyHuey
 
 **Discord:**
-https://pygpt.net/discord
+https://github.com/DylanLRPollock/PyHuey/discord
 
 **Snap Store:**
 https://snapcraft.io/pygpt
@@ -23,13 +23,13 @@ https://snapcraft.io/pygpt
 https://apps.microsoft.com/detail/XP99R4MX3X65VQ
 
 **PyPI:**
-https://pypi.org/project/pygpt-net
+https://pypi.org/project/pyhuey
 
 **Author:**
 Marcin Szczygliński (Poland, EU)
 
 **Contact:**
-info@pygpt.net
+info@github.com/DylanLRPollock/PyHuey
 
 **License:**
 MIT License
@@ -65,3 +65,4 @@ https://fonts.google.com/icons
 Code of the LlamaIndex offline loaders integrated into app is taken from LlamaHub: https://llamahub.ai
 
 Awesome ChatGPT Prompts (used in templates): https://github.com/f/awesome-chatgpt-prompts/
+

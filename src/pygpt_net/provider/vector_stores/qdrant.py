@@ -2,8 +2,8 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://pygpt.net                         #
-# GitHub:  https://github.com/szczyglis-dev/py-gpt   #
+# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
 # Updated Date: 2025.09.30 13:00:00                  #
@@ -115,3 +115,4 @@ class QdrantProvider(BaseStore):
         with open(lock_file, 'w') as f:
             f.write(id + ': ' + str(datetime.datetime.now()))
         self.indexes[id] = index
+

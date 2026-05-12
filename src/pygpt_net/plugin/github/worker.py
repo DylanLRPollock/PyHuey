@@ -2,8 +2,8 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://pygpt.net                         #
-# GitHub:  https://github.com/szczyglis-dev/py-gpt   #
+# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
 # Updated Date: 2025.08.15 00:00:00                  #
@@ -156,7 +156,7 @@ class Worker(BaseWorker):
         hdrs = {
             "Authorization": f"{scheme} {token}",
             "Accept": "application/vnd.github+json",
-            "User-Agent": "pygpt-net-github-plugin/1.0",
+            "User-Agent": "pyhuey-github-plugin/1.0",
             "X-GitHub-Api-Version": self.plugin.get_option_value("api_version") or "2022-11-28",
         }
         return hdrs

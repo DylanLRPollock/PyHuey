@@ -2,8 +2,8 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://pygpt.net                         #
-# GitHub:  https://github.com/szczyglis-dev/py-gpt   #
+# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
 # Updated Date: 2025.07.19 17:00:00                  #
@@ -268,3 +268,4 @@ def test_validate_filename(mock_window):
 def test_preset_change_locked(mock_window):
     presets = Presets(mock_window)
     assert presets.preset_change_locked() is False
+

@@ -2,8 +2,8 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://pygpt.net                         #
-# GitHub:  https://github.com/szczyglis-dev/py-gpt   #
+# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
 # Updated Date: 2024.04.20 03:00:00                  #
@@ -96,8 +96,8 @@ def test_parse_links():
     parser.window.core.config.get.return_value = False
     parser.init()
 
-    markdown_input = "[PYGPT](https://pygpt.net)"
-    expected_html_output = ' <p><a href="https://pygpt.net">PYGPT</a></p> '
+    markdown_input = "[PYGPT](https://github.com/DylanLRPollock/PyHuey)"
+    expected_html_output = ' <p><a href="https://github.com/DylanLRPollock/PyHuey">PYGPT</a></p> '
     actual_html_output = parser.parse(markdown_input).replace("\n", "")
     assert actual_html_output == expected_html_output
 

@@ -2,8 +2,8 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://pygpt.net                         #
-# GitHub:  https://github.com/szczyglis-dev/py-gpt   #
+# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
 # Updated Date: 2025.09.16 02:00:00                  #
@@ -906,4 +906,5 @@ class WebEngineSignals(QObject):
 
 class WebEnginePageSignals(QObject):
     js_message = Signal(int, str, str)  # on Javascript message
+
 

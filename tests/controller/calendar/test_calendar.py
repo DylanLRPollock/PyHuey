@@ -2,8 +2,8 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://pygpt.net                         #
-# GitHub:  https://github.com/szczyglis-dev/py-gpt   #
+# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
 # Updated Date: 2025.09.16 11:00:00                  #
@@ -79,3 +79,4 @@ def test_on_ctx_select(mock_window):
     mock_window.controller.ctx.append_search_string = MagicMock()
     calendar.on_ctx_select(2024, 1, 1)
     mock_window.controller.ctx.append_search_string.assert_called_once()
+

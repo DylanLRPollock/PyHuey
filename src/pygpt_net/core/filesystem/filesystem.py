@@ -2,8 +2,8 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://pygpt.net                         #
-# GitHub:  https://github.com/szczyglis-dev/py-gpt   #
+# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
 # Updated Date: 2026.01.23 23:00:00                  #
@@ -171,15 +171,15 @@ class Filesystem:
             return path
 
         # try to find workdir in path: old versions compatibility, < 2.0.113
-        if work_dir.endswith('.config/pygpt-net'):
-            work_dir = work_dir.rsplit('/.config/pygpt-net', 1)[0]
-        elif work_dir.endswith('.config\\pygpt-net'):
-            work_dir = work_dir.rsplit('\\.config\\pygpt-net', 1)[0]
+        if work_dir.endswith('.config/pyhuey'):
+            work_dir = work_dir.rsplit('/.config/pyhuey', 1)[0]
+        elif work_dir.endswith('.config\\pyhuey'):
+            work_dir = work_dir.rsplit('\\.config\\pyhuey', 1)[0]
 
         if self.window.core.platforms.is_windows():
-            dir_index = path.find('\\.config\\pygpt-net\\') + 1
+            dir_index = path.find('\\.config\\pyhuey\\') + 1
         else:
-            dir_index = path.find('/.config/pygpt-net/') + 1
+            dir_index = path.find('/.config/pyhuey/') + 1
 
         parts = path[dir_index:]
         return os.path.join(work_dir, parts)

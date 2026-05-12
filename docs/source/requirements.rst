@@ -6,7 +6,7 @@ Binaries
 
 You can download compiled binary versions for ``Linux`` and ``Windows`` (10/11). 
 
-**PyGPT** binaries require a PC with Windows 10, 11, or Linux. Simply download the installer or the archive with the appropriate version from the download page at https://pygpt.net, extract it, or install it, and then run the application. A binary version for Mac is not available, so you must run PyGPT from PyPi or from the source code on Mac. Currently, only 64-bit binaries are available.
+**PyHuey** binaries require a PC with Windows 10, 11, or Linux. Simply download the installer or the archive with the appropriate version from the download page at https://github.com/DylanLRPollock/PyHuey, extract it, or install it, and then run the application. A binary version for Mac is not available, so you must run PyHuey from PyPi or from the source code on Mac. Currently, only 64-bit binaries are available.
 
 Windows 10 and 11
 `````````````````
@@ -27,22 +27,22 @@ Linux version requires ``GLIBC`` >= ``2.35``.
 Microsoft Store
 ---------------
 
-For Windows 10/11, you can install **PyGPT** directly from Microsoft Store:
+For Windows 10/11, you can install **PyHuey** directly from Microsoft Store:
 
 Link to MS Store: https://apps.microsoft.com/detail/XP99R4MX3X65VQ
 
 AppImage
 ---------
 
-You can download the latest **PyGPT** ``AppImage`` for Linux from the release page:
+You can download the latest **PyHuey** ``AppImage`` for Linux from the release page:
 
-**Releases:** https://github.com/szczyglis-dev/py-gpt/releases
+**Releases:** https://github.com/DylanLRPollock/PyHuey/releases
 
 **Tip:** Remember to give execution permissions to the downloaded file:
 
 .. code-block:: console
 
-    $ chmod +x ./PyGPT-X.X.X-x86_64.AppImage
+    $ chmod +x ./PyHuey-X.X.X-x86_64.AppImage
 
 To manage future updates you can use ``AppImageUpdate`` tool:
 
@@ -52,12 +52,12 @@ After downloading, run the following command in terminal:
 
 .. code-block:: console
 
-    appimageupdatetool ./PyGPT-X.X.X-x86_64.AppImage
+    appimageupdatetool ./PyHuey-X.X.X-x86_64.AppImage
 
 Snap Store
 ----------
 
-You can install **PyGPT** directly from Snap Store:
+You can install **PyHuey** directly from Snap Store:
 
 .. code-block:: console
 
@@ -95,7 +95,7 @@ To manage future updates just use:
 
 **Connecting IPython in Docker in Snap version**:
 
-To use IPython in the Snap version, you must connect PyGPT to the Docker daemon:
+To use IPython in the Snap version, you must connect PyHuey to the Docker daemon:
 
 .. code-block:: console
 
@@ -129,7 +129,7 @@ PyPi (pip)
 
 .. code-block:: console
 
-    $ pip install pygpt-net
+    $ pip install pyhuey
 
 3. Once installed run the command to start the application:
 
@@ -148,8 +148,8 @@ Install with pip
 
 .. code-block:: console
 
-    $ git clone https://github.com/szczyglis-dev/py-gpt.git
-    $ cd py-gpt
+    $ git clone https://github.com/DylanLRPollock/PyHuey.git
+    $ cd pyhuey
 
 2. Create a new virtual environment:
 
@@ -178,8 +178,8 @@ Install with Poetry
 
 .. code-block:: console
 
-    $ git clone https://github.com/szczyglis-dev/py-gpt.git
-    $ cd py-gpt
+    $ git clone https://github.com/DylanLRPollock/PyHuey.git
+    $ cd pyhuey
 
 2. Install Poetry (if not installed):
 
@@ -263,7 +263,7 @@ To use microphone in Snap version you must connect the microphone with:
 
 **Snap and AppArmor permission denied**
 
-Snap installs AppArmor profiles for each application by default. The profile for PyGPT is created at:
+Snap installs AppArmor profiles for each application by default. The profile for PyHuey is created at:
 
 ``/var/lib/snapd/apparmor/profiles/snap.pygpt.pygpt``
 
@@ -317,7 +317,7 @@ On Windows, the proper functioning requires the installation of the ``VC++ Redis
 
 https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist
 
-The libraries from this environment are used by ``PySide6`` - one of the base packages used by PyGPT. 
+The libraries from this environment are used by ``PySide6`` - one of the base packages used by PyHuey. 
 The absence of the installed libraries may cause display errors or completely prevent the application from running.
 
 It may also be necessary to add the path ``C:\path\to\venv\Lib\python3.x\site-packages\PySide6`` to the ``PATH`` variable.
@@ -354,3 +354,4 @@ Debugging and logging
 ---------------------
 
 Please go to ``Debugging and Logging`` section for instructions on how to log and diagnose issues in a more detailed manner.
+

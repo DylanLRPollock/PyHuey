@@ -1,7 +1,7 @@
 Accessibility
 =============
 
-Since version ``2.2.8``, PyGPT has added beta support for disabled people and voice control. This may be very useful for blind people.
+Since version ``2.2.8``, PyHuey has added beta support for disabled people and voice control. This may be very useful for blind people.
 
 
 In the ``Config / Accessibility`` menu, you can turn on accessibility features such as:
@@ -129,3 +129,4 @@ For voice translation of on-screen events and information about completed comman
 
 .. image:: images/v2_access.png
    :width: 800
+

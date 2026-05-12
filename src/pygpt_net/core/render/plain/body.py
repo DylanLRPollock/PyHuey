@@ -2,8 +2,8 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://pygpt.net                         #
-# GitHub:  https://github.com/szczyglis-dev/py-gpt   #
+# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
 # Updated Date: 2025.08.21 00:00:00                  #
@@ -80,8 +80,8 @@ class Body:
                     """
                     Example doc (file metadata):
                     {'a2c7af6d-3c34-4c28-bf2d-6161e7fb525e': {
-                        'file_path': '/home/user/.config/pygpt-net/data/my_cars.txt',
-                        'file_name': '/home/user/.config/pygpt-net/data/my_cars.txt', 'file_type': 'text/plain',
+                        'file_path': '/home/user/.config/pyhuey/data/my_cars.txt',
+                        'file_name': '/home/user/.config/pyhuey/data/my_cars.txt', 'file_type': 'text/plain',
                         'file_size': 28, 'creation_date': '2024-03-03', 'last_modified_date': '2024-03-03',
                         'last_accessed_date': '2024-03-03'}}
                     """

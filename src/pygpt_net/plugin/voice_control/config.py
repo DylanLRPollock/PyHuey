@@ -2,8 +2,8 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://pygpt.net                         #
-# GitHub:  https://github.com/szczyglis-dev/py-gpt   #
+# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
 # Updated Date: 2024.11.18 19:00:00                  #
@@ -28,7 +28,7 @@ class Config(BaseConfig):
             type="textarea",
             value="Execute voice command",
             label="Magic prefix for voice commands",
-            description="Optional magic prefix required for voice commands, e.g. 'OK PyGPT', 'Execute voice command', etc.",
+            description="Optional magic prefix required for voice commands, e.g. 'OK PyHuey', 'Execute voice command', etc.",
             urls={
                 "Help": "https://pygpt.readthedocs.io/en/latest/accessibility.html",
             },

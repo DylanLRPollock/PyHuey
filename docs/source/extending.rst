@@ -1,12 +1,12 @@
-Extending PyGPT
+Extending PyHuey
 ===============
 
 Quick start
 ------------
 
-You can create your own extension for **PyGPT** at any time. 
+You can create your own extension for **PyHuey** at any time. 
 
-PyGPT can be extended with:
+PyHuey can be extended with:
 
 * custom models
 * custom plugins
@@ -31,13 +31,13 @@ See the ``examples`` directory in this repository with examples of custom launch
 * ``examples/example_vector_store.py``
 * ``examples/example_web_search.py``
 
-These example files can be used as a starting point for creating your own extensions for **PyGPT**.
+These example files can be used as a starting point for creating your own extensions for **PyHuey**.
 
-Extending PyGPT with custom plugins, LLMs wrappers and vector stores:
+Extending PyHuey with custom plugins, LLMs wrappers and vector stores:
 
 - You can pass custom plugin instances, LLMs wrappers and vector store providers to the launcher.
 
-- This is useful if you want to extend PyGPT with your own plugins, vectors storage and LLMs.
+- This is useful if you want to extend PyHuey with your own plugins, vectors storage and LLMs.
 
 To register custom plugins:
 
@@ -135,7 +135,7 @@ Adding a custom plugin
 
 Creating Your Own Plugin
 ````````````````````````
-You can create your own plugin for **PyGPT**. The plugin can be written in Python and then registered with the application just before launching it. All plugins included with the app are stored in the ``plugin`` directory - you can use them as coding examples for your own plugins.
+You can create your own plugin for **PyHuey**. The plugin can be written in Python and then registered with the application just before launching it. All plugins included with the app are stored in the ``plugin`` directory - you can use them as coding examples for your own plugins.
 
 **Examples (tutorial files)** 
 
@@ -143,7 +143,7 @@ See the example plugin in this ``examples`` directory:
 
 - ``examples/example_plugin.py``
 
-These example file can be used as a starting point for creating your own plugin for **PyGPT**.
+These example file can be used as a starting point for creating your own plugin for **PyHuey**.
 
 To register a custom plugin:
 
@@ -347,7 +347,7 @@ These wrappers are loaded into the application during startup using ``launcher.a
 
 To add support for providers not included by default, you can create your own wrapper that returns a custom model to the application and then pass this custom wrapper to the launcher.
 
-Extending PyGPT with custom plugins and LLM wrappers is straightforward:
+Extending PyHuey with custom plugins and LLM wrappers is straightforward:
 
 - Pass instances of custom plugins and LLM wrappers directly to the launcher.
 
@@ -393,9 +393,9 @@ See the ``examples`` directory in this repository with examples of custom launch
 * ``examples/example_vector_store.py``
 * ``examples/example_web_search.py``
 
-These example files can be used as a starting point for creating your own extensions for **PyGPT**.
+These example files can be used as a starting point for creating your own extensions for **PyHuey**.
 
-To integrate your own model or provider into **PyGPT**, you can also reference the classes located in the ``pygpt_net.provider.llms``. These samples can act as an more complex example for your custom class. Ensure that your custom wrapper class includes two essential methods: ``chat`` and ``completion``. These methods should return the respective objects required for the model to operate in ``chat`` and ``completion`` modes.
+To integrate your own model or provider into **PyHuey**, you can also reference the classes located in the ``pygpt_net.provider.llms``. These samples can act as an more complex example for your custom class. Ensure that your custom wrapper class includes two essential methods: ``chat`` and ``completion``. These methods should return the respective objects required for the model to operate in ``chat`` and ``completion`` modes.
 
 Every single LLM provider (wrapper) inherits from ``BaseLLM`` class and can provide 2 components: provider for LlamaIndex, and provider for Embeddings.
 

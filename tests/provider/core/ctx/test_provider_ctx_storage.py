@@ -2,8 +2,8 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://pygpt.net                         #
-# GitHub:  https://github.com/szczyglis-dev/py-gpt   #
+# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
 # Updated Date: 2024.11.26 19:00:00                  #
@@ -408,3 +408,4 @@ def test_unpack_item_value():
     assert unpack_item_value('1') == 1
     assert unpack_item_value('[1, 2, 3]') == [1, 2, 3]
     assert unpack_item_value('{"a": 1, "b": 2}') == {'a': 1, 'b': 2}
+

@@ -1,6 +1,6 @@
 # Code examples
 
-In this folder, you'll find files with sample code that you can use if you want to develop and add new plugins, tools, LLM wrappers, vector stores, or data loaders to **PyGPT**.
+In this folder, you'll find files with sample code that you can use if you want to develop and add new plugins, tools, LLM wrappers, vector stores, or data loaders to **PyHuey**.
 
 There are example files here that can serve as tutorial and starting points for creating your own extensions:
 
@@ -73,4 +73,5 @@ in: `./src/pygpt_net/provider/web/`
 `pygpt_net.tools.*`
 
 in: `./src/pygpt_net/tools/`
+
 

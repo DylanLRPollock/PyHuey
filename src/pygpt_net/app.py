@@ -2,8 +2,8 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://pygpt.net                         #
-# GitHub:  https://github.com/szczyglis-dev/py-gpt   #
+# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
 # Updated Date: 2026.01.06 20:00:00                  #
@@ -72,11 +72,11 @@ builtins.open = open_wrapper
 
 def run(**kwargs):
     """
-    PyGPT Launcher
+    PyHuey Launcher
 
     :param kwargs: Keyword arguments for the launcher.
 
-    PyGPT can be extended with:
+    PyHuey can be extended with:
 
     - Custom plugins
     - Custom LLM providers
@@ -89,7 +89,7 @@ def run(**kwargs):
     - Custom agents
 
     You can provide custom plugin instances, LLM wrappers, vector store providers, and more to the launcher.
-    This is useful for extending PyGPT with your own plugins, vector storage, LLMs, or other data providers.
+    This is useful for extending PyHuey with your own plugins, vector storage, LLMs, or other data providers.
 
     --- HOW TO REGISTER CUSTOM EXTENSIONS ---
 
@@ -198,7 +198,7 @@ def run(**kwargs):
     # Start lightweight splash in a separate process (no interference with the main Qt app)
     from pygpt_net.__init__ import __version__
     from pygpt_net.preload import _start_preloader
-    _preloader = _start_preloader(title="PyGPT", message=f"v{__version__}")
+    _preloader = _start_preloader(title="PyHuey", message=f"v{__version__}")
 
     from pygpt_net.launcher import Launcher
 

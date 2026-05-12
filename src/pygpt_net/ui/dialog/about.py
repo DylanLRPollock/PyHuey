@@ -2,8 +2,8 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://pygpt.net                         #
-# GitHub:  https://github.com/szczyglis-dev/py-gpt   #
+# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
 # Updated Date: 2026.01.21 02:00:00                  #
@@ -165,7 +165,7 @@ class About:
         thanks.setAlignment(Qt.AlignCenter)
         self.window.ui.nodes['dialog.about.thanks'] = thanks
 
-        title = QLabel("PyGPT")
+        title = QLabel("PyHuey")
         title.setContentsMargins(0, 0, 0, 0)
         title.setStyleSheet(
             "font-size: 16px; "
@@ -206,3 +206,4 @@ class About:
         else:
             self.window.ui.nodes['dialog.about.thanks'].show()
             self.window.ui.nodes['dialog.about.thanks.content'].show()
+

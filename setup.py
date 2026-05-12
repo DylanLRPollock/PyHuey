@@ -5,15 +5,15 @@ DESCRIPTION = 'Desktop AI Assistant powered by: OpenAI GPT-5, GPT-4, o1, o3, Gem
 LONG_DESCRIPTION = 'Desktop AI Assistant powered by: OpenAI GPT-5, GPT-4, o1, o3, Gemini, Claude, Grok, DeepSeek, and other models supported by Llama Index, and Ollama. Chatbot, agents, completion, image generation, vision analysis, speech-to-text, plugins, internet access, file handling, command execution and more.'
 
 setup(
-    name='pygpt-net',
+    name='pyhuey',
     version=VERSION,
     description=DESCRIPTION,
     long_description=LONG_DESCRIPTION,
     license='MIT',
     author="Marcin Szczygliński",
-    author_email='info@pygpt.net',
+    author_email='info@github.com/DylanLRPollock/PyHuey',
     maintainer="Marcin Szczygliński",
-    maintainer_email='info@pygpt.net',
+    maintainer_email='info@github.com/DylanLRPollock/PyHuey',
     packages=find_packages('src'),
     package_dir={'': 'src'},
     package_data={'': [
@@ -41,8 +41,8 @@ setup(
         'data/js/highlight/es/*',
         'data/js/highlight/es/languages/*'
     ]},
-    url='https://github.com/szczyglis-dev/py-gpt',
-    keywords=['ai', 'api', 'api key', 'app', 'assistant', 'bielik', 'chat', 'chatbot', 'chatgpt', 'claude', 'dall-e', 'deepseek', 'desktop', 'gemini', 'gpt', 'gpt-3.5', 'gpt-4', 'gpt-4-vision', 'gpt-4o', 'gpt-5', 'gpt-oss', 'gpt3.5', 'gpt4', 'grok', 'langchain', 'llama-index', 'llama3', 'mistral', 'o1', 'o3', 'ollama', 'openai', 'presets', 'py-gpt', 'py_gpt', 'pygpt', 'pyside', 'qt', 'text completion', 'tts', 'ui', 'vision', 'whisper'],
+    url='https://github.com/DylanLRPollock/PyHuey',
+    keywords=['ai', 'api', 'api key', 'app', 'assistant', 'bielik', 'chat', 'chatbot', 'chatgpt', 'claude', 'dall-e', 'deepseek', 'desktop', 'gemini', 'gpt', 'gpt-3.5', 'gpt-4', 'gpt-4-vision', 'gpt-4o', 'gpt-5', 'gpt-oss', 'gpt3.5', 'gpt4', 'grok', 'langchain', 'llama-index', 'llama3', 'mistral', 'o1', 'o3', 'ollama', 'openai', 'presets', 'pyhuey', 'py_gpt', 'pygpt', 'pyside', 'qt', 'text completion', 'tts', 'ui', 'vision', 'whisper'],
     install_requires=[
         'anthropic>=0.54.0,<1.0.0',
         'azure-core>=1.35.0,<2.0.0',
@@ -139,3 +139,4 @@ setup(
         'youtube-transcript-api>=0.6.3,<0.7.0',
     ],
 )
+

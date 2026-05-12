@@ -2,8 +2,8 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://pygpt.net                         #
-# GitHub:  https://github.com/szczyglis-dev/py-gpt   #
+# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
 # Updated Date: 2026.01.22 17:00:00                  #
@@ -160,3 +160,4 @@ class ToolDialog(BaseDialog):
         self.window.tools.get("interpreter").opened = False
         self.window.tools.get("interpreter").close()
         self.window.tools.get("interpreter").update()
+

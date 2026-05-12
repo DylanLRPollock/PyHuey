@@ -2,8 +2,8 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://pygpt.net                         #
-# GitHub:  https://github.com/szczyglis-dev/py-gpt   #
+# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
 # Updated Date: 2024.01.04 13:00:00                  #
@@ -107,3 +107,4 @@ def test_save(mock_window):
             mock_json_dumps.assert_called_once_with(data, indent=4)
             mocked_file.assert_called_once_with(path, 'w', encoding="utf-8")
             mocked_file().write.assert_called_once_with(dump)
+

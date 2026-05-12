@@ -2,8 +2,8 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://pygpt.net                         #
-# GitHub:  https://github.com/szczyglis-dev/py-gpt   #
+# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
 # Updated Date: 2024.01.27 19:00:00                  #
@@ -27,3 +27,4 @@ class Rename:
         id = 'rename'
         self.window.ui.dialog[id] = RenameDialog(self.window, id)
         self.window.ui.dialog[id].setWindowTitle(trans("dialog.rename.title"))
+

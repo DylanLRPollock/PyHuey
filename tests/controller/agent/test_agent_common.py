@@ -2,8 +2,8 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://pygpt.net                         #
-# GitHub:  https://github.com/szczyglis-dev/py-gpt   #
+# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
 # Updated Date: 2024.11.21 20:00:00                  #
@@ -171,3 +171,4 @@ def test_toggle_loop_false(mock_window):
     common.toggle_loop(False)
     mock_window.core.config.set.assert_called_once_with('agent.llama.loop.enabled', False)
     mock_window.core.config.save.assert_called_once()
+

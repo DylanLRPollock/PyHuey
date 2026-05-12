@@ -2,8 +2,8 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://pygpt.net                         #
-# GitHub:  https://github.com/szczyglis-dev/py-gpt   #
+# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
 # Updated Date: 2024.01.27 16:00:00                  #
@@ -33,3 +33,4 @@ def test_apply_all(mock_window):
     mock_window.controller.notepad.get_num_notepads = MagicMock(return_value=1)
     theme.nodes.apply_all()
     theme.nodes.apply_all.assert_called()
+

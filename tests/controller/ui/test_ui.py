@@ -2,8 +2,8 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://pygpt.net                         #
-# GitHub:  https://github.com/szczyglis-dev/py-gpt   #
+# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
 # Updated Date: 2024.01.28 12:00:00                  #
@@ -124,3 +124,4 @@ def test_update_ctx_label_not_allowed(mock_window):
     mock_window.ui.nodes['chat.label'].setText = MagicMock()
     ui.update_ctx_label()
     mock_window.ui.nodes['chat.label'].setText.assert_called_with('')
+

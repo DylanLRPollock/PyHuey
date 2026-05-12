@@ -5,9 +5,9 @@ AppDir:
   path: ./AppDir
 
   app_info:
-    id: io.github.szczyglis_dev.py-gpt
-    name: PyGPT
-    icon: io.github.szczyglis_dev.py-gpt
+    id: ca.dlrp.pyhuey
+    name: PyHuey
+    icon: ca.dlrp.pyhuey
     version: 3.0.0
     exec: usr/bin/python3
     exec_args: -m pygpt_net.app $@
@@ -72,8 +72,8 @@ AppDir:
   after_bundle: |
     set -e
     APPDIR="$(readlink -f ./AppDir)"
-    install -Dm644 data/io.github.szczyglis_dev.py-gpt.desktop "$APPDIR/usr/share/applications/io.github.szczyglis_dev.py-gpt.desktop"
-    install -Dm644 data/icons/io.github.szczyglis_dev.py-gpt.png "$APPDIR/usr/share/icons/hicolor/256x256/apps/io.github.szczyglis_dev.py-gpt.png"
+    install -Dm644 data/ca.dlrp.pyhuey.desktop "$APPDIR/usr/share/applications/ca.dlrp.pyhuey.desktop"
+    install -Dm644 data/icons/ca.dlrp.pyhuey.png "$APPDIR/usr/share/icons/hicolor/256x256/apps/ca.dlrp.pyhuey.png"
 
     mkdir -p "$APPDIR/usr/src"
     cp -a src/* "$APPDIR/usr/src/"
@@ -103,4 +103,5 @@ AppDir:
 
 AppImage:
   arch: x86_64
-  update-information: "gh-releases-zsync|szczyglis-dev|py-gpt|latest|*.AppImage.zsync"
+  update-information: "gh-releases-zsync|szczyglis-dev|pyhuey|latest|*.AppImage.zsync"
+

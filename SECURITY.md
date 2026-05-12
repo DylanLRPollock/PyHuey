@@ -2,17 +2,17 @@
 
 **Project:** PyHuey  
 **Parent project:** Monkey-Head-Project / HueyOS  
-**Fork basis:** PyGPT  
+**Fork basis:** PyHuey  
 **Last updated:** 2026-05-09  
 **Current policy era:** v101.1 — PyHuey cockpit alignment
 
 PyHuey takes security seriously.
 
-PyHuey is the project-controlled cockpit fork of PyGPT for the Monkey-Head-Project / HueyOS. It is intended as a LabTech/operator-side cockpit, build surface, integration test surface, and controlled desktop tooling layer for working with Huey-related providers, files, plugins, prompts, local models, indexes, and structured project records.
+PyHuey is the project-controlled cockpit fork of PyHuey for the Monkey-Head-Project / HueyOS. It is intended as a LabTech/operator-side cockpit, build surface, integration test surface, and controlled desktop tooling layer for working with Huey-related providers, files, plugins, prompts, local models, indexes, and structured project records.
 
 PyHuey is not Huey itself, not the Huey Brain, not HIMS, not Huey constitutional governance, and not the canonical Legion Go V1 proof loop.
 
-That distinction matters for security. PyHuey may expose powerful desktop-assistant capabilities inherited from PyGPT, including local files, plugin tools, shell or command execution, Python execution, browser/search tooling, API-provider access, attachments, indexing, vector stores, and local/remote model integrations. Those features must be treated as operator tools with explicit permission boundaries, not autonomous authority.
+That distinction matters for security. PyHuey may expose powerful desktop-assistant capabilities inherited from PyHuey, including local files, plugin tools, shell or command execution, Python execution, browser/search tooling, API-provider access, attachments, indexing, vector stores, and local/remote model integrations. Those features must be treated as operator tools with explicit permission boundaries, not autonomous authority.
 
 ---
 
@@ -64,7 +64,7 @@ PyHuey’s v101.1 cockpit target is:
 | Primary OS | Windows 11 Pro |
 | Python | Python 3.13.x |
 | Fallback Python | Python 3.12.x only if dependency reality forces it |
-| Secondary OS | Debian/Linux where upstream PyGPT compatibility applies |
+| Secondary OS | Debian/Linux where upstream PyHuey compatibility applies |
 | Path policy | `integrations/pyhuey/` for the fork |
 | Windows path policy | `platform/windows/huey/` for cockpit/build/runtime material |
 
@@ -193,7 +193,7 @@ Security reports are in scope when they affect PyHuey or its documented project 
 
 The following are normally out of scope:
 
-- pure upstream PyGPT vulnerabilities with no PyHuey-specific change;
+- pure upstream PyHuey vulnerabilities with no PyHuey-specific change;
 - pure upstream dependency vulnerabilities with no PyHuey-default exposure;
 - vulnerabilities in Windows, Debian, Python, Qt/PySide, drivers, firmware, kernels, or third-party services;
 - user-added provider keys, plugins, scripts, models, or local tools not shipped or recommended by PyHuey;
@@ -206,7 +206,7 @@ The following are normally out of scope:
 
 ### Upstream caveat
 
-If an upstream PyGPT or dependency issue becomes exploitable through PyHuey defaults, project patches, documented PyHuey workflows, shipped overlays, or release artifacts, report it to us too. We may coordinate pinning, mitigation, documentation, or patched releases while upstream handles the root fix.
+If an upstream PyHuey or dependency issue becomes exploitable through PyHuey defaults, project patches, documented PyHuey workflows, shipped overlays, or release artifacts, report it to us too. We may coordinate pinning, mitigation, documentation, or patched releases while upstream handles the root fix.
 
 ---
 
@@ -536,6 +536,7 @@ Public issues: only after coordinated disclosure or for non-sensitive hardening/
 
 PyHuey is the cockpit.
 
-It is powerful because it inherits desktop AI, file, plugin, provider, and automation capabilities from PyGPT. That power must be bounded.
+It is powerful because it inherits desktop AI, file, plugin, provider, and automation capabilities from PyHuey. That power must be bounded.
 
 PyHuey helps Dylan operate, inspect, test, and build the Monkey-Head-Project. It must not silently become Huey’s authority, bypass Huey Brain, leak secrets, or turn cockpit convenience into uncontrolled autonomy.
+

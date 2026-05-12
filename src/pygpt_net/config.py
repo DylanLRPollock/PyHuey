@@ -2,8 +2,8 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://pygpt.net                         #
-# GitHub:  https://github.com/szczyglis-dev/py-gpt   #
+# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
 # Updated Date: 2026.01.20 20:00:00                  #
@@ -41,7 +41,7 @@ def quick_get_config_value(key: str, default: any = None) -> any:
 
 
 class Config:
-    CONFIG_DIR = 'pygpt-net'
+    CONFIG_DIR = 'pyhuey'
     SNAP_NAME = 'pygpt'
     TYPE_STR = 0
     TYPE_INT = 1
@@ -303,11 +303,11 @@ class Config:
                 architecture = self.window.core.platforms.get_architecture()
 
                 print("===================================================")
-                print(f" {Color.BOLD}PyGPT    {v}{Color.ENDC} build {build} ({os_name}, {architecture})")
+                print(f" {Color.BOLD}PyHuey    {v}{Color.ENDC} build {build} ({os_name}, {architecture})")
                 print(" Author:  Marcin Szczygliński")
-                print(" GitHub:  https://github.com/szczyglis-dev/py-gpt")
-                print(" Website: https://pygpt.net")
-                print(" Email:   info@pygpt.net")
+                print(" GitHub:  https://github.com/DylanLRPollock/PyHuey")
+                print(" Website: https://github.com/DylanLRPollock/PyHuey")
+                print(" Email:   info@github.com/DylanLRPollock/PyHuey")
                 print("===================================================")
                 print("")
                 print(f"{Color.BOLD}Initializing...{Color.ENDC}")

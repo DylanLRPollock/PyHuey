@@ -2,8 +2,8 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://pygpt.net                         #
-# GitHub:  https://github.com/szczyglis-dev/py-gpt   #
+# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
 # Updated Date: 2023.12.30 09:00:00                  #
@@ -23,3 +23,4 @@ class Version20231230095000(BaseMigration):
         conn.execute(text("""
         ALTER TABLE notepad ADD COLUMN is_initialized BOOLEAN NOT NULL DEFAULT 0 CHECK (is_initialized IN (0, 1));
         """))
+

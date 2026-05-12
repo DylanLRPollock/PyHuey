@@ -2,8 +2,8 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://pygpt.net                         #
-# GitHub:  https://github.com/szczyglis-dev/py-gpt   #
+# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
 # Updated Date: 2024.11.20 03:00:00                  #
@@ -132,3 +132,4 @@ def test_build_with_names(mock_window_conf):
         user_name='User',
     )
     assert message == 'test_system_prompt\nUser: user message\nAI: AI message\nUser: test_prompt\nAI:'
+

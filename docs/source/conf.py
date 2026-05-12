@@ -6,8 +6,8 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'PyGPT'
-copyright = '2026, pygpt.net'
+project = 'PyHuey'
+copyright = '2026, github.com/DylanLRPollock/PyHuey'
 author = 'szczyglis-dev, Marcin Szczygliński'
 release = '3.0.0'
 
@@ -45,3 +45,4 @@ source_suffix = {
 language = 'en'
 locale_dirs = ['locale/']   # path is example but recommended.
 gettext_compact = False     # optional.
+

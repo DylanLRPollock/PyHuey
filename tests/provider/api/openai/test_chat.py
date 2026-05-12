@@ -2,8 +2,8 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://pygpt.net                         #
-# GitHub:  https://github.com/szczyglis-dev/py-gpt   #
+# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
 # Updated Date: 2025.08.02 20:00:00                  #
@@ -94,3 +94,4 @@ def test_build(mock_window_conf):
     assert messages[1]['content'] == 'user message'
     assert messages[2]['content'] == 'AI message'
     assert messages[3]['content'] == 'test_prompt'
+

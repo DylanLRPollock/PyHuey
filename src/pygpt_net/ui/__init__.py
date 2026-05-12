@@ -2,8 +2,8 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://pygpt.net                         #
-# GitHub:  https://github.com/szczyglis-dev/py-gpt   #
+# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
 # Updated Date: 2025.12.27 17:00:00                  #
@@ -143,7 +143,7 @@ class UI:
         suffix = self.window.core.platforms.get_env_suffix()
         profile_name = self.window.core.config.profile.get_current_name()
         self.window.setWindowTitle(
-            f"PyGPT {self.window.meta['version']} | "
+            f"PyHuey {self.window.meta['version']} | "
             f"build {self.window.meta['build'].replace('.', '-')}{suffix} ({profile_name})"
         )
 
@@ -284,3 +284,4 @@ class UI:
             'data',
             icon
         ))
+

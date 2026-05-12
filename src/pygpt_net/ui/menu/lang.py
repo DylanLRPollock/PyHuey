@@ -2,8 +2,8 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://pygpt.net                         #
-# GitHub:  https://github.com/szczyglis-dev/py-gpt   #
+# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
 # Updated Date: 2024.01.27 11:00:00                  #
@@ -26,3 +26,4 @@ class Lang:
         """Setup lang menu"""
         self.window.ui.menu['lang'] = {}
         self.window.ui.menu['menu.lang'] = QMenu(trans("menu.lang"), self.window)
+
