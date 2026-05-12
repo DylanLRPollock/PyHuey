@@ -4,7 +4,7 @@ Models
 Built-in models
 ---------------
 
-PyGPT has a preconfigured list of models (as of 2026-02-06):
+PyGPT has a preconfigured list of models (as of 11-05-2026):
 
 - ``bielik-11b-v2.3-instruct:Q4_K_M`` (Ollama)
 - ``chatgpt-4o-latest`` (OpenAI)
@@ -279,5 +279,6 @@ Required **kwargs:
 - model_name | model
 - token
 - provider = auto
+
 
 

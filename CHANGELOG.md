@@ -1,6 +1,6 @@
 # CHANGELOG
 
-## 2.7.12 (2026-02-06)
+## 3.0.0 (11-05-2026)
 
 - xAI SDK upgraded to v1.6.1.
 - Added video generation support in xAI provider.
@@ -3242,3 +3242,4 @@ New features in version 2.0.0:
 ## 0.9.0 (2023.04.09)
 
 - Initial release
+

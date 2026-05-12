@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
 
-VERSION = '2.7.12'
+VERSION = '3.0.0'
 DESCRIPTION = 'Desktop AI Assistant powered by: OpenAI GPT-5, GPT-4, o1, o3, Gemini, Claude, Grok, DeepSeek, and other models supported by Llama Index, and Ollama.'
 LONG_DESCRIPTION = 'Desktop AI Assistant powered by: OpenAI GPT-5, GPT-4, o1, o3, Gemini, Claude, Grok, DeepSeek, and other models supported by Llama Index, and Ollama. Chatbot, agents, completion, image generation, vision analysis, speech-to-text, plugins, internet access, file handling, command execution and more.'
 
@@ -91,7 +91,7 @@ setup(
         'llama-index-vector-stores-elasticsearch==0.4.0',
         'llama-index-vector-stores-pinecone>=0.6.0,<0.7.0',
         'llama-index-vector-stores-qdrant>=0.8.0,<0.9.0',
-        'llama-index-vector-stores-redis>=0.4.0,<0.5.0',
+        'llama-index-vector-stores-redis>=0.8.0,<0.9.0',
         'llama-index-readers-chatgpt-plugin>=0.3.0,<0.4.0',
         'llama-index-readers-database>=0.3.0,<0.4.0',
         'llama-index-readers-file>=0.4.11,<0.5.0',

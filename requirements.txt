@@ -14,7 +14,7 @@
 #   - This file is intentionally fully pinned for reproducible PyHuey cockpit installs.
 #   - The working freeze used a local patched wheel for llama-index-vector-stores-redis 0.8.0.
 #     For release safety, the main requirements.txt uses a portable version pin:
-#       llama-index-vector-stores-redis==0.8.0
+#       llama-index-vector-stores-redis>=0.8.0,<0.9.0
 #     If the patched wheel is required, install it from a local wheelhouse or use the included
 #     requirements-local-redis-wheel.txt overlay.
 #   - Keep API keys, local config, and private profiles out of Git.
@@ -193,7 +193,7 @@ llama-index-vector-stores-chroma==0.5.5
 llama-index-vector-stores-elasticsearch==0.5.1
 llama-index-vector-stores-pinecone==0.7.1
 llama-index-vector-stores-qdrant==0.8.8
-llama-index-vector-stores-redis==0.8.0
+llama-index-vector-stores-redis>=0.8.0,<0.9.0
 llama-index-workflows==2.14.0
 llama-parse==0.6.54
 lxml==6.0.2
@@ -330,7 +330,7 @@ qdrant-client==1.15.1
 qt-material==2.17
 queuelib==1.9.0
 redis==5.3.1
-redisvl==0.8.2
+redisvl>=0.8.2,<0.9
 referencing==0.37.0
 regex==2026.1.15
 requests==2.32.5

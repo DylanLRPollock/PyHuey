@@ -5,7 +5,7 @@ REM https://github.com/wixtoolset/wix3/releases/tag/wix3141rtm
 REM Set variables
 SET SourceDir=%CD%\..\dist\Windows
 SET InstallerOutputFolder=%CD%\..\dist
-SET ProductVersion=2.7.12
+SET ProductVersion=3.0.0
 SET ProductUpgradeCode=3FCD39F6-4965-4B51-A185-FC6E53CA431B
 SET WIX=C:\Program Files (x86)\WiX Toolset v3.14
 SET SIGNTOOL=C:\Program Files (x86)\Microsoft SDKs\ClickOnce\SignTool
@@ -25,5 +25,6 @@ REM 3. Link the .wixobj files into the MSI using light.exe
 "%WIX%\bin\light.exe" -ext WixUIExtension -dSourceDir="%SourceDir%" -dProductVersion="%ProductVersion%" Product.wixobj PYGPTFiles.wixobj -o "%InstallerOutputFolder%\pygpt-%ProductVersion%.msi"
 
 echo Installer (download) has been built successfully.
+
 
 

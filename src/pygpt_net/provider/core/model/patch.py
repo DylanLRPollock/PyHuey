@@ -189,9 +189,9 @@ class Patch:
                             data[model] = base_model
                 updated = True
 
-            # <  2.7.12 <--- add imagine models
-            if old < parse_version("2.7.12"):
-                print("Migrating models from < 2.7.12...")
+            # <  3.0.0 <--- add imagine models
+            if old < parse_version("3.0.0"):
+                print("Migrating models from < 3.0.0...")
                 models_to_add = [
                     "grok-imagine-image",
                     "grok-imagine-video",
@@ -218,3 +218,4 @@ class Patch:
                 self.window.core.models.patch_missing()
 
         return updated
+

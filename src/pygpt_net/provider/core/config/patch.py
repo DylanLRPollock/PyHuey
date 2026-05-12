@@ -285,9 +285,9 @@ class Patch:
                         data[key] = ""
                 updated = True
 
-            # < 2.7.12
-            if old < parse_version("2.7.12"):
-                print("Migrating config from < 2.7.12...")
+            # < 3.0.0
+            if old < parse_version("3.0.0"):
+                print("Migrating config from < 3.0.0...")
                 if "ctx.attachment.append_once" not in data:
                     data["ctx.attachment.append_once"] = False
                 if "ctx.attachment.auto_append" not in data:
@@ -308,3 +308,4 @@ class Patch:
                 migrated = True
 
         return migrated
+
