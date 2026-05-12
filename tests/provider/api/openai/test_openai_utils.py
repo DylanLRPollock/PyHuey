@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# Website: www.dlrp.ca                         #
 # GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
@@ -48,3 +48,4 @@ def test_re_sub_called(monkeypatch):
     monkeypatch.setattr(re, "sub", mock_sub)
     sanitize_name("Example Test")
     mock_sub.assert_called_once_with(r'[^a-z0-9_-]', '_', "example test")
+

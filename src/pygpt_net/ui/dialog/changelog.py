@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# Website: www.dlrp.ca                         #
 # GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
@@ -51,4 +51,5 @@ class Changelog:
         self.window.ui.dialog['info.' + id] = InfoDialog(self.window, id)
         self.window.ui.dialog['info.' + id].setLayout(layout)
         self.window.ui.dialog['info.' + id].setWindowTitle(trans("dialog.changelog.title"))
+
 

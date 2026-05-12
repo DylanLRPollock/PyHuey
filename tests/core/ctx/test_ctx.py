@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# Website: www.dlrp.ca                         #
 # GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
@@ -1009,3 +1009,4 @@ def test_store(mock_window_conf):
     ctx.save = MagicMock()
     ctx.store()
     ctx.save.assert_called_once_with(7)
+

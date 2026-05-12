@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# Website: www.dlrp.ca                         #
 # GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
@@ -58,4 +58,5 @@ def test_handle_error(mock_window):
     image.window.core.debug.log = MagicMock()
     image.handle_error('test')
     image.window.core.debug.log.assert_called_once()
+
 

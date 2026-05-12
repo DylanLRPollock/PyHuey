@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# Website: www.dlrp.ca                         #
 # GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
@@ -22,6 +22,7 @@ def test_update_text_last_updated(mock_window):
     mock_window.core.config.set("llama.idx.db.last", 1234567)
     settings.update_text_last_updated()
     mock_window.ui.nodes['idx.db.last_updated'].setText.assert_called_once()
+
 
 
 

@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# Website: www.dlrp.ca                         #
 # GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
@@ -155,3 +155,4 @@ class EditorConfig:
 
     def port_capacity_tooltip(self, cap_text: str) -> str:
         return f"{self.lbl_allowed_connections()} (IN/OUT): {cap_text}"
+

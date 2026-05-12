@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# Website: www.dlrp.ca                         #
 # GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
@@ -32,4 +32,5 @@ def test_build_final_system_prompt(mock_window):
     #assert result == 'cmd_syntax'
     #prompt.window.core.command.append_syntax.assert_called_once()
     prompt.window.dispatch.assert_called()
+
 

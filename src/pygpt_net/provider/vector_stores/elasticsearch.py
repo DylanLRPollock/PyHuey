@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# Website: www.dlrp.ca                         #
 # GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
@@ -111,4 +111,5 @@ class ElasticsearchProvider(BaseStore):
         with open(lock_file, 'w') as f:
             f.write(id + ': ' + str(datetime.datetime.now()))
         self.indexes[id] = index
+
 

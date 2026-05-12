@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# Website: www.dlrp.ca                         #
 # GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
@@ -511,3 +511,4 @@ class Plugin(BasePlugin):
             norm.append(f"{idx}|{label}|{addr}|AUTH:{bool(auth)}|A:{a}|D:{d}")
         blob = "|#|".join(norm)
         return hashlib.sha256(blob.encode("utf-8")).hexdigest()
+

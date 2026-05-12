@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# Website: www.dlrp.ca                         #
 # GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
@@ -255,3 +255,4 @@ def test_apply_rate_limit_with_sleep(monkeypatch):
     sleep_arg = sleep_mock.call_args[0][0]
     assert sleep_arg == pytest.approx(extra.total_seconds(), rel=1e-3)
     window.core.debug.debug.assert_called()
+

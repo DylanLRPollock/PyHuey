@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# Website: www.dlrp.ca                         #
 # GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
@@ -326,4 +326,5 @@ class Storage:
         note.important = unpack_var(row['is_important'], 'bool')
         note.deleted = unpack_var(row['is_deleted'], 'bool')
         return note
+
 

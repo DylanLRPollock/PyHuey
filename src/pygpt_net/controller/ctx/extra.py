@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# Website: www.dlrp.ca                         #
 # GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
@@ -250,3 +250,4 @@ class Extra:
             self.window.core.ctx.update_item(prev_item)
             self.window.core.ctx.remove_item(current_item.id)
             self.window.controller.ctx.refresh()
+

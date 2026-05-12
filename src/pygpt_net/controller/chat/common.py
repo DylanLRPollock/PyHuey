@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# Website: www.dlrp.ca                         #
 # GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
@@ -579,3 +579,4 @@ class Common:
         self.window.update_status(
             f"{trans('status.tokens')}: {short_num(ctx.input_tokens)} + {short_num(ctx.output_tokens)} = {short_num(ctx.total_tokens)}{stats}"
         )
+

@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# Website: www.dlrp.ca                         #
 # GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
@@ -288,4 +288,5 @@ class Profile:
         p = os.path.join(self.base_workdir, path_file)
         with open(p, 'w', encoding='utf-8') as f:
             f.write(path)
+
 

@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# Website: www.dlrp.ca                         #
 # GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
@@ -51,4 +51,5 @@ def test_get_value(mock_window):
     }
     field.get_value('parent_id', 'key', option)
     mock_window.ui.config['parent_id']['key'].box.isChecked.assert_called_once()
+
 

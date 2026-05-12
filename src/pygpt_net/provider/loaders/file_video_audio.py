@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# Website: www.dlrp.ca                         #
 # GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
@@ -52,4 +52,5 @@ class Loader(BaseLoader):
         if self.window is not None:
             args["use_local"] = self.window.core.config.get("llama.hub.loaders.use_local", False)
         return VideoAudioReader(**args)
+
 

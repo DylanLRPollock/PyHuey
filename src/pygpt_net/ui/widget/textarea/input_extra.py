@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# Website: www.dlrp.ca                         #
 # GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
@@ -662,3 +662,4 @@ class ExtraInput(QTextEdit):
     def collapse_to_min(self):
         """Public helper to collapse input area to minimal height."""
         self._schedule_auto_resize(force=True, enforce_minimize_if_single=True)
+

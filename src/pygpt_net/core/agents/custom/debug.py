@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# Website: www.dlrp.ca                         #
 # GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
@@ -62,3 +62,4 @@ def items_preview(items: List[TResponseInputItem], total_chars: int = 280, max_i
         text = content_to_text(it.get("content"))
         lines.append(f"- {role}: {ellipsize(text, per)}")
     return " | ".join(lines)
+

@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# Website: www.dlrp.ca                         #
 # GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
@@ -82,4 +82,5 @@ def test_style(mock_window):
     assert theme.style('font.chat.input') == 'QTextEdit { font-size: 12px; }'
     assert theme.style('font.ctx.list') == 'font-size: 12px;'
     assert theme.style('font.toolbox') == 'font-size: 12px;'
+
 

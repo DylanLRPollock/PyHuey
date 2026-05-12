@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# Website: www.dlrp.ca                         #
 # GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
@@ -255,4 +255,5 @@ def test_save_all(mock_window):
     presets.provider = MagicMock()
     presets.save_all()
     presets.provider.save_all.assert_called_once_with(presets.items)
+
 

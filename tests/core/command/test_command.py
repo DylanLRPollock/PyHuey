@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# Website: www.dlrp.ca                         #
 # GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
@@ -73,3 +73,4 @@ def test_extract_cmd_white_spaces():
     cmd1 = '   ' \
            '{"cmd": "command1", "params": {"arg1": "some arg"}}   '
     assert cmd.extract_cmd(cmd1) == json.loads(cmd1.strip())
+

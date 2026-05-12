@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# Website: www.dlrp.ca                         #
 # GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
@@ -378,4 +378,5 @@ def test_context_change_locked(mock_window):
     assert ctx.context_change_locked() is True
     mock_window.controller.chat.input.generating = False
     assert ctx.context_change_locked() is False
+
 

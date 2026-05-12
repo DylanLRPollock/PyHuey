@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# Website: www.dlrp.ca                         #
 # GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
@@ -54,4 +54,5 @@ def test_handle_update(mock_window):
     ctx = CtxItem()
     summarizer.handle_update(3, ctx, 'test_title')
     mock_window.controller.ctx.update_name.assert_called_once_with(3, 'test_title', refresh=True)
+
 

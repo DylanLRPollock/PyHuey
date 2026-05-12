@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# Website: www.dlrp.ca                         #
 # GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
@@ -88,4 +88,5 @@ class OpenAIWhisperLocal(BaseProvider):
         return ("Please install OpenAI whisper model "
                 "'pip install git+https://github.com/openai/whisper.git' "
                 "or pip install openai-whisper to use the model")
+
 

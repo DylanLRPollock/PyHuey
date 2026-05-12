@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# Website: www.dlrp.ca                         #
 # GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
@@ -33,4 +33,5 @@ class NameInput(QLineEdit):
         super(NameInput, self).keyPressEvent(event)
         self.window.controller.ui.update_tokens()
         self.window.controller.presets.editor.update_from_global(self.id, self.text())
+
 

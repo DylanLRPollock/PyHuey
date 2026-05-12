@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# Website: www.dlrp.ca                         #
 # GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczyglinski                  #
@@ -1009,3 +1009,4 @@ class Worker(BaseWorker):
                 x1 = self._denorm_x(x1); y1 = self._denorm_y(y1)
             return self.cmd_mouse_drag({"cmd": "mouse_drag", "params": {"x": x0, "y": y0, "dx": x1, "dy": y1}})
         return self.make_response(item, self.get_current(item))
+

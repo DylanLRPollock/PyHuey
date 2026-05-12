@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# Website: www.dlrp.ca                         #
 # GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
@@ -87,3 +87,4 @@ class Tools:
         ui_menu['menu.tools.system.rebuild'] = QAction(reload_icon, "Rebuild System Sandbox Docker Image", window)
         menu_tools.addAction(ui_menu['menu.tools.system.rebuild'])
         ui_menu['menu.tools.system.rebuild'].triggered.connect(self._rebuild_system)
+

@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# Website: www.dlrp.ca                         #
 # GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
@@ -57,4 +57,5 @@ class LicenseDialog(BaseDialog):
         """
         self.window.controller.dialogs.info.active[self.id] = False
         self.window.controller.dialogs.info.update_menu()
+
 

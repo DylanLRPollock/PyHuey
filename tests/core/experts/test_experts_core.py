@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# Website: www.dlrp.ca                         #
 # GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
@@ -484,3 +484,4 @@ def test_expert_worker_run_error(fake_window):
     worker.signals.response.emit = MagicMock()
     worker.run()
     assert worker.signals is None # after cleanup
+

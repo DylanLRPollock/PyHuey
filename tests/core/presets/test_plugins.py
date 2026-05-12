@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# Website: www.dlrp.ca                         #
 # GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
@@ -70,4 +70,5 @@ def test_restore_options(mock_window_conf):
     plugins.plugins['test'].options = {'test': {'value': 'test'}}
     plugins.restore_options('test')
     assert plugins.plugins['test'].options == plugin.options
+
 

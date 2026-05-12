@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# Website: www.dlrp.ca                         #
 # GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
@@ -371,3 +371,4 @@ class DeleteNodeCommand(QUndoCommand):
             except Exception:
                 # Best-effort: ignore a single failing connection to not break the undo sequence
                 pass
+

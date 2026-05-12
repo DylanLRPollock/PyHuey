@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# Website: www.dlrp.ca                         #
 # GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
@@ -74,4 +74,5 @@ def test_load(mock_window):
             theme.markdown.load()
             assert theme.markdown.css['markdown'] is not None
             assert theme.markdown.css['web'] is not None
+
 

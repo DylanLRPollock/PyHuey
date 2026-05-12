@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# Website: www.dlrp.ca                         #
 # GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
@@ -40,4 +40,5 @@ class AgentDebug:
         debug.add(self.id, 'finished', str(agent_legacy.finished))
         debug.add(self.id, 'allowed_cmds', str(agent_legacy.allowed_cmds))
         debug.end(self.id)
+
 

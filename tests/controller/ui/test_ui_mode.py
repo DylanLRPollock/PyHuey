@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# Website: www.dlrp.ca                         #
 # GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
@@ -42,4 +42,5 @@ def test_update(mock_window):
     mock_window.ui.nodes['assistants.widget'].setVisible.assert_called()
     mock_window.ui.nodes['dalle.options'].setVisible.assert_called()
     mock_window.ui.nodes['vision.capture.options'].setVisible.assert_called()
+
 

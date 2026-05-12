@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# Website: www.dlrp.ca                         #
 # GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
@@ -143,3 +143,4 @@ def test_send_with_ctx_none(monkeypatch, dummy_window, dummy_context):
     args, kwargs = client.completions.create.call_args
     assert kwargs["stop"] == ""
     assert response == {"result": "response"}
+

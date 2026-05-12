@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# Website: www.dlrp.ca                         #
 # GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
@@ -81,3 +81,4 @@ def test_get_value(mock_window):
     assert cfg.get_value("parent_id", "key", option) == 1
     cfg.slider.get_value.assert_called_once_with("parent_id", "key", option)
     cfg.input.get_value.assert_not_called()
+

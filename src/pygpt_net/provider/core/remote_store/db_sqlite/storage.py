@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This store is a part of PYGPT package              #
-# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# Website: www.dlrp.ca                         #
 # GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
@@ -245,4 +245,5 @@ class Storage:
             result = conn.execute(stmt)
             store.record_id = result.lastrowid
             return store.record_id
+
 

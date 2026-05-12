@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# Website: www.dlrp.ca                         #
 # GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
@@ -48,7 +48,7 @@ class About:
         m['info.discord'] = QAction(icon_public, trans("menu.info.discord"), w)
         m['info.license'] = QAction(icon_info, trans("menu.info.license"), w)
 
-        m['donate.coffee'] = QAction(icon_favorite, "Buy me a coffee", w)
+        m['donate.coffee'] = QAction(icon_favorite, "", w)
         m['donate.coffee'].setMenuRole(QAction.MenuRole.NoRole)
         m['donate.paypal'] = QAction(icon_favorite, "PayPal", w)
         m['donate.github'] = QAction(icon_favorite, "GitHub Sponsors", w)
@@ -95,3 +95,4 @@ class About:
             m['donate.paypal'],
             m['donate.github'],
         ])
+

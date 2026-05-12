@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# Website: www.dlrp.ca                         #
 # GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
@@ -143,3 +143,4 @@ def test_append_to_tools_expert_with_unknown(monkeypatch):
         {"type": "code_interpreter", "container": {"type": "auto"}},
     ]
     assert result == expected
+

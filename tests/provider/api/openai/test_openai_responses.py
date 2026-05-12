@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# Website: www.dlrp.ca                         #
 # GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
@@ -255,3 +255,4 @@ def test_is_enabled(responses_instance, dummy_window, dummy_model):
     preset.remote_tools = ["tool"]
     res = responses_instance.is_enabled(dummy_model, MODE_CHAT, MODE_CHAT, is_expert_call=True, preset=preset)
     assert res is True
+

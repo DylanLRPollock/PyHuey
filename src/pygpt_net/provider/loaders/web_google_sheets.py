@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# Website: www.dlrp.ca                         #
 # GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
@@ -83,4 +83,5 @@ class Loader(BaseLoader):
             elif isinstance(kwargs.get("spreadsheet_ids"), str):
                 args["spreadsheet_ids"] = self.explode(kwargs.get("spreadsheet_ids"))
         return args
+
 

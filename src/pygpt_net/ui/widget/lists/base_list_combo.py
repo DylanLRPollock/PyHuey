@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# Website: www.dlrp.ca                         #
 # GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
@@ -175,3 +175,4 @@ class BaseListCombo(QWidget):
     def fit_to_content(self):
         """Fit to content"""
         self.combo.setSizeAdjustPolicy(QComboBox.AdjustToContents)
+

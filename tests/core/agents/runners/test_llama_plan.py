@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# Website: www.dlrp.ca                         #
 # GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
@@ -122,3 +122,4 @@ def test_run_once_normal(llama_plan, fake_agent, dummy_ctx):
     assert result_ctx is not None
     assert result_ctx.output == "final_response"
     fake_agent.create_plan.assert_called_once()
+

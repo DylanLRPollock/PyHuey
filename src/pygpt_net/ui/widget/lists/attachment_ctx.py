@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# Website: www.dlrp.ca                         #
 # GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
@@ -325,3 +325,4 @@ class AttachmentCtxList(BaseList):
     def _action_open_dir_dest_multi(self, rows: list[int], checked=False):
         if rows:
             self.window.controller.chat.attachment.open_dir_dest_by_idx(list(rows))
+

@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# Website: www.dlrp.ca                         #
 # GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
@@ -79,3 +79,4 @@ class ControlEvent(BaseEvent):
     VOICE_MESSAGE_START = "voice_msg.start"
     VOICE_MESSAGE_STOP = "voice_msg.stop"
     VOICE_MESSAGE_TOGGLE = "voice_msg.toggle"
+

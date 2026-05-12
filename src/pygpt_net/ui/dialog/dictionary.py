@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# Website: www.dlrp.ca                         #
 # GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
@@ -143,3 +143,4 @@ class Dictionary(BaseConfigDialog):
             ui.dialog[dialog_key] = EditorDialog(self.window, parent_id)
             ui.dialog[dialog_key].setLayout(layout)
             ui.dialog[dialog_key].setWindowTitle(edit_title)
+

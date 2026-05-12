@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# Website: www.dlrp.ca                         #
 # GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
@@ -128,3 +128,4 @@ class AttachmentsUploaded:
                 model.setData(model.index(i, 2), size_str)
                 model.setData(model.index(i, 3), store_name)
         model.endResetModel()
+

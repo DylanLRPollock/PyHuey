@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# Website: www.dlrp.ca                         #
 # GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
@@ -260,3 +260,4 @@ class ProfileList(BaseList):
     def _action_delete_all_multi(self, rows: list[int]):
         if rows:
             self.window.controller.settings.profile.delete_all_by_idx(list(rows))
+

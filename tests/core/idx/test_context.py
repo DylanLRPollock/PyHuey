@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# Website: www.dlrp.ca                         #
 # GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
@@ -44,4 +44,5 @@ def test_get_messages(mock_window):
     assert messages[2].content == "test3"
     assert messages[3].role == "assistant"
     assert messages[3].content == "test4"
+
 

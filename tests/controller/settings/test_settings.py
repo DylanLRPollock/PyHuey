@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# Website: www.dlrp.ca                         #
 # GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
@@ -121,4 +121,5 @@ def test_welcome_settings(mock_window):
     settings.welcome_settings()
     settings.open_section.assert_called_once_with('api_keys')
     mock_window.ui.dialogs.close.assert_called_once_with('info.start')
+
 

@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# Website: www.dlrp.ca                         #
 # GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
@@ -211,3 +211,4 @@ def pcm16_stats(pcm16_mono: bytes, sample_rate: int) -> dict:
         return {"duration_s": dur, "samples": n_samp, "rms": rms, "peak": peak, "dc_offset": avg, "dbfs": dbfs}
     except Exception:
         return {}
+

@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# Website: www.dlrp.ca                         #
 # GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
@@ -195,3 +195,4 @@ def test_append(reply_instance):
     assert fake_ctx.results == []
     assert reply.reply_stack[-1] == [{"result": "append"}]
     assert reply.reply_ctx == fake_ctx
+

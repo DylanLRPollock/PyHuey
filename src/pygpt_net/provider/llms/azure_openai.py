@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# Website: www.dlrp.ca                         #
 # GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
@@ -121,4 +121,5 @@ class AzureOpenAILLM(BaseLLM):
             args["model_name"] = args.pop("model")
         args = self.inject_llamaindex_http_clients(args, window.core.config)
         return AzureOpenAIEmbedding(**args)
+
 

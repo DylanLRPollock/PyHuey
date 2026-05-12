@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# Website: www.dlrp.ca                         #
 # GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
@@ -236,3 +236,4 @@ def test_get_remote_tools_expert_empty_preset(monkeypatch):
     assert result == []
     result = get_remote_tools(window, model, None, True)
     assert result == []
+

@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# Website: www.dlrp.ca                         #
 # GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
@@ -434,3 +434,4 @@ def test_get_ollama_available_success(importer, mock_window):
     mock_window.core.models.create_empty.side_effect = fake_create_empty
     result = importer.get_ollama_available()
     assert "test:latest" in result
+

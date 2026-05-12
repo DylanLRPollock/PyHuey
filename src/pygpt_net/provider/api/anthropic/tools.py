@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# Website: www.dlrp.ca                         #
 # GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
@@ -221,3 +221,4 @@ class Tools:
         base_tools = self.prepare(model, functions)
         remote_tools = self.window.core.api.anthropic.remote_tools.build_remote_tools(model)
         return self.merge_tools_dedup(base_tools, remote_tools)
+

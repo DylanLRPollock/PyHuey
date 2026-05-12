@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# Website: www.dlrp.ca                         #
 # GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
@@ -20,3 +20,4 @@ TOOL_QUERY_ENGINE_PARAM_QUERY_DESCRIPTION = "query to retrieve additional contex
 TOOL_QUERY_ENGINE_SPEC = ("**" + TOOL_QUERY_ENGINE_NAME + "**: "
                           + TOOL_QUERY_ENGINE_DESCRIPTION +
                      "available params: {'query': {'type': 'string', 'description': 'query string'}}, required: [query]")
+

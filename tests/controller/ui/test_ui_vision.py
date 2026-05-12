@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# Website: www.dlrp.ca                         #
 # GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
@@ -70,4 +70,5 @@ def test_update_vision_no_vision(mock_window):
     mock_window.controller.camera.hide_camera.assert_called()
     mock_window.controller.chat.vision.show_inline.assert_not_called()
     mock_window.controller.chat.vision.hide_inline.assert_called()
+
 

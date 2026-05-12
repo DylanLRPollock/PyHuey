@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# Website: www.dlrp.ca                         #
 # GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
@@ -138,4 +138,5 @@ def test_read_text(mock_window):
     audio.window.dispatch = MagicMock()
     audio.read_text('test')
     audio.window.dispatch.assert_called_once()
+
 

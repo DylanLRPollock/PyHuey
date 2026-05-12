@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# Website: www.dlrp.ca                         #
 # GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
@@ -183,3 +183,4 @@ def collect_google_citations(ctx, state, chunk: Any):
 
     if state.citations and (ctx.urls is None or not ctx.urls):
         ctx.urls = list(state.citations)
+

@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# Website: www.dlrp.ca                         #
 # GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
@@ -308,3 +308,4 @@ class Realtime:
         QTimer.singleShot(0, lambda: self.window.dispatch(KernelEvent(KernelEvent.STATE_BUSY, {
             "id": "realtime",
         })))
+

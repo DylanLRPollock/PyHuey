@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# Website: www.dlrp.ca                         #
 # GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
@@ -329,3 +329,4 @@ def test_failed_logs_handles_and_unlocks_and_dispatches_error():
     assert window.dispatch.called
     ev = window.dispatch.call_args[0][0]
     assert isinstance(ev, KernelEvent)
+

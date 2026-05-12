@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# Website: www.dlrp.ca                         #
 # GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
@@ -90,3 +90,4 @@ def test_set_openai_env(monkeypatch):
     assert os.environ["OPENAI_API_KEY"] == "key_value"
     assert os.environ["OPENAI_API_BASE"] == "endpoint_value"
     assert os.environ["OPENAI_ORGANIZATION"] == "org_value"
+

@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# Website: www.dlrp.ca                         #
 # GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
@@ -186,4 +186,5 @@ class Plugin(BasePlugin):
         else:
             self.window.ui.plugin_addon['schedule'].setVisible(False)
             self.window.ui.plugin_addon['schedule'].setText("")
+
 

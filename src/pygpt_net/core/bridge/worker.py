@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# Website: www.dlrp.ca                         #
 # GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
@@ -266,4 +266,5 @@ class BridgeWorker(QRunnable):
                     or self.mode in [MODE_AGENT_LLAMA, MODE_AGENT_OPENAI]):
                 ctx.hidden_input = ad_context  # store for future use, only if query context
                 # if full context or summary, then whole extra context will be applied to current input
+
 

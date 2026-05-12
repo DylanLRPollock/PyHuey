@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# Website: www.dlrp.ca                         #
 # GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
@@ -79,4 +79,5 @@ def test_on_ctx_select(mock_window):
     mock_window.controller.ctx.append_search_string = MagicMock()
     calendar.on_ctx_select(2024, 1, 1)
     mock_window.controller.ctx.append_search_string.assert_called_once()
+
 

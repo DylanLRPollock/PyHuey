@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# Website: www.dlrp.ca                         #
 # GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
@@ -1436,3 +1436,4 @@ class NodeItem(QGraphicsWidget):
     def mark_ready_for_scene_ops(self, ready: bool = True):
         """Enable/disable scene-dependent operations (collision checks, edge updates)."""
         self._ready_scene_ops = bool(ready)
+

@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# Website: www.dlrp.ca                         #
 # GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
@@ -25,3 +25,4 @@ class ChunkType(str, Enum):
     ANTHROPIC = "anthropic"  # Anthropic SDK
     XAI_SDK = "xai_sdk"  # xAI SDK
     RAW = "raw"  # Raw string fallback
+

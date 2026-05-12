@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# Website: www.dlrp.ca                         #
 # GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
@@ -670,3 +670,4 @@ def test_toggle_split_screen_disable(tabs, dummy_window):
     tabs.toggle_split_screen(False)
     assert called is True
     tabs.disable_split_screen = orig_disable
+

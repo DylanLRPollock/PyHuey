@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# Website: www.dlrp.ca                         #
 # GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
@@ -450,3 +450,4 @@ class MaxHeightDelegate(QStyledItemDelegate):
         original = super().sizeHint(option, index)
         limited = min(original.height(), self.maxHeight)
         return QSize(original.width(), limited)
+

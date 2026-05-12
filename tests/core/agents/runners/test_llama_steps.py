@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# Website: www.dlrp.ca                         #
 # GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
@@ -145,3 +145,4 @@ def test_run_once_normal():
     dummy_agent.create_task.assert_called_once_with("prompt text")
     dummy_agent.run_step.assert_called_once_with("task-1")
     dummy_agent.finalize_response.assert_called_once_with("task-1")
+

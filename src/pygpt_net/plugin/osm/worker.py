@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# Website: www.dlrp.ca                         #
 # GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
@@ -717,3 +717,4 @@ class Worker(BaseWorker):
         local = self._save_bytes(r.content, out)
         self._add_image(local)
         return self.make_response(item, {"ok": True, "file": local, "url": url})
+

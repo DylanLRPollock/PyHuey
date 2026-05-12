@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# Website: www.dlrp.ca                         #
 # GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
@@ -129,3 +129,4 @@ def test_handle_evaluation(evaluation):
     core = evaluation.window.core
     assert core.agents.runner.loop.next_instruction == "New instruction"
     assert core.agents.runner.loop.prev_score == 90
+

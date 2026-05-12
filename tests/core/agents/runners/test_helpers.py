@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# Website: www.dlrp.ca                         #
 # GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
@@ -158,3 +158,4 @@ def test_handle_evaluation_else(loop_instance, dummy_signals):
         dummy_step.set_input.assert_called_with("instruction")
         loop_instance.window.core.agents.runner.call.assert_called()
         assert result == "runner call result"
+

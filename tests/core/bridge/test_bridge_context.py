@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# Website: www.dlrp.ca                         #
 # GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
@@ -104,3 +104,4 @@ def test_dump_returns_json_and_handles_exceptions(monkeypatch):
     monkeypatch.setattr(mod.BridgeContext, "dump", lambda self: "DUMPED", raising=True)
     bc3 = mod.BridgeContext()
     assert str(bc3) == "DUMPED"
+

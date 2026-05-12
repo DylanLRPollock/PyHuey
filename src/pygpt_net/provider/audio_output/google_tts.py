@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# Website: www.dlrp.ca                         #
 # GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
@@ -128,5 +128,6 @@ class GoogleTextToSpeech(BaseProvider):
         api_key = self.plugin.get_option_value("google_api_key")
         if api_key is None or api_key == "":
             return "Google API KEY is not set. Please set it in plugin settings."
+
 
 

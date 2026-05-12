@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# Website: www.dlrp.ca                         #
 # GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
@@ -33,4 +33,5 @@ def test_apply_all(mock_window):
     mock_window.controller.notepad.get_num_notepads = MagicMock(return_value=1)
     theme.nodes.apply_all()
     theme.nodes.apply_all.assert_called()
+
 

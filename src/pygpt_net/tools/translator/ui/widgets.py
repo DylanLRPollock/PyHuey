@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# Website: www.dlrp.ca                         #
 # GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
@@ -530,4 +530,5 @@ class ToolSignals(QObject):
     translate = Signal(str, str, str, str, str)  # translate content: id, model, text, src_lang, dst_lang
     set_status = Signal(str)  # set status message
     on_load = Signal()  # on load (focus on right column)
+
 

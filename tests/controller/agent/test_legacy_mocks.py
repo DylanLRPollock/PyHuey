@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# Website: www.dlrp.ca                         #
 # GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
@@ -357,3 +357,4 @@ def test_hook_update(legacy_instance, dummy_window):
     dummy_window.core.config.set.assert_called_with("agent.iterations", 15)
     dummy_window.core.config.save.assert_called()
     legacy_instance.update.assert_called()
+

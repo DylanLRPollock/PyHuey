@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# Website: www.dlrp.ca                         #
 # GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
@@ -732,3 +732,4 @@ class Runner:
                 "scale": s.devicePixelRatio(),
             })
         return {"result": self._to_json(arr), "context": f"Monitors: {len(arr)}"}
+

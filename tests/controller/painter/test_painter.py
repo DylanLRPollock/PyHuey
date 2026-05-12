@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# Website: www.dlrp.ca                         #
 # GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
@@ -57,4 +57,5 @@ def test_restore(mock_window):
         painter.window.ui.painter.update = MagicMock()
         painter.restore()
         painter.window.ui.painter.update.assert_called_once()
+
 

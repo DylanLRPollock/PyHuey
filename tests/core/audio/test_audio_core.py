@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# Website: www.dlrp.ca                         #
 # GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
@@ -21,4 +21,5 @@ def test_clean_text():
     text = 'speak this<tool>>ignore this</tool> only'
     res = audio.clean_text(text)
     assert res == 'speak this only'
+
 

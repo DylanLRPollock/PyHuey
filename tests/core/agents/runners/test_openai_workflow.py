@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# Website: www.dlrp.ca                         #
 # GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
@@ -119,3 +119,4 @@ def test_make_response_without_tool_outputs(monkeypatch, workflow):
     # Verify that the extract method was called and append was not.
     workflow.window.core.agents.tools.extract_tool_outputs.assert_called_once_with(dummy_response_ctx)
     workflow.window.core.agents.tools.append_tool_outputs.assert_not_called()
+

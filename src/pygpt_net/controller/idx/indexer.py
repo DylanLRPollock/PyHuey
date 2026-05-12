@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# Website: www.dlrp.ca                         #
 # GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
@@ -766,3 +766,4 @@ class Indexer(QObject):
         self.window.tools.get("indexer").on_finish_web()
         self.window.tools.get("indexer").refresh()
         self.window.controller.idx.on_idx_end()  # on end
+

@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# Website: www.dlrp.ca                         #
 # GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
@@ -75,3 +75,4 @@ class LlamaAssistant(BaseRunner):
         response_ctx.extra["agent_finish"] = True  # mark as finished
         self.send_response(response_ctx, signals, KernelEvent.APPEND_DATA)
         return True
+

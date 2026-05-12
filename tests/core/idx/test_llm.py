@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# Website: www.dlrp.ca                         #
 # GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
@@ -305,3 +305,4 @@ def test_get_custom_embed_provider_fallbacks_to_global_when_not_configured_or_no
     mock_window.core.idx.log.assert_any_call(
         f"Embeddings: not configured for {model.provider}. Fallback: using global provider."
     )
+

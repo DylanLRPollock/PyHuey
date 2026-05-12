@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# Website: www.dlrp.ca                         #
 # GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
@@ -442,3 +442,4 @@ class TestAttachment:
         att.window.core.config.set.assert_called_with("ctx.attachment.mode", "new")
         att.window.core.config.save.assert_called_once()
         att.window.controller.ui.update_tokens.assert_called_once()
+

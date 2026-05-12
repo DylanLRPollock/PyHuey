@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# Website: www.dlrp.ca                         #
 # GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
@@ -134,4 +134,5 @@ class AudioInputButton(QWidget):
         """Toggle recording"""
         event = Event(Event.AUDIO_INPUT_RECORD_TOGGLE)
         self.window.dispatch(event)
+
 

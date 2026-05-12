@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# Website: www.dlrp.ca                         #
 # GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
@@ -64,3 +64,4 @@ class MarkerHighlighter(QSyntaxHighlighter):
             length = min(block_len - rel_start, rel_end - rel_start)
             if length > 0:
                 self.setFormat(rel_start, length, fmt)
+

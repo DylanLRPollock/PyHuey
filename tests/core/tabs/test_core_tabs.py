@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# Website: www.dlrp.ca                         #
 # GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
@@ -484,3 +484,4 @@ def test_move_tab(tabs_instance, fake_window):
     assert fake_tab.column_idx == 1
     assert new_column.count() == original_count + 1
     assert fake_tab.child in new_column._tabs
+

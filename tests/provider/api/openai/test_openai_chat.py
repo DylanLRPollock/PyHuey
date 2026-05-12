@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# Website: www.dlrp.ca                         #
 # GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
@@ -198,3 +198,4 @@ def test_unpack_response_audio_without_audio(dummy_window, dummy_ctx):
     assert dummy_ctx.input_tokens == 9
     assert dummy_ctx.output_tokens == 10
     assert dummy_ctx.total_tokens == 19
+

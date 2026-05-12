@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# Website: www.dlrp.ca                         #
 # GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
@@ -42,4 +42,5 @@ def test_get(mock_window):
     locale.load = MagicMock()
     assert locale.get('test') == 'translated'
     locale.load.assert_not_called()  # already have data
+
 

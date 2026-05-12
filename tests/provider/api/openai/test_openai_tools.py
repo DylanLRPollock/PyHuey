@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# Website: www.dlrp.ca                         #
 # GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
@@ -108,3 +108,4 @@ def test_prepare_responses_api_params_none():
     result = t.prepare_responses_api(model, funcs)
     expected = [{"type": "function", "name": "func_none", "parameters": {}, "description": "desc"}]
     assert result == expected
+

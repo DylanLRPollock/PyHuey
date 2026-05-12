@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# Website: www.dlrp.ca                         #
 # GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
@@ -130,4 +130,5 @@ def test_get_version(mock_window):
     models.provider = MagicMock()
     models.provider.get_version.return_value = "1.0.0"
     assert models.get_version() == "1.0.0"
+
 

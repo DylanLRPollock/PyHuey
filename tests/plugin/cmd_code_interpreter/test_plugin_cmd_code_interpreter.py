@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# Website: www.dlrp.ca                         #
 # GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
@@ -44,5 +44,6 @@ def test_handle_cmd_syntax(mock_window):
     event.ctx = ctx
     plugin.handle(event)
     assert len(event.data["cmd"]) == 7  # code_execute, code_execute_file, sys_exec
+
 
 

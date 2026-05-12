@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# Website: www.dlrp.ca                         #
 # GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
@@ -88,4 +88,5 @@ def test_handle_sys_prompt(mock_window):
     plugin.get_option_value = MagicMock(return_value="test append")
     plugin.handle(event)
     assert event.data["value"] == "prompt"
+
 

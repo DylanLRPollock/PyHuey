@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# Website: www.dlrp.ca                         #
 # GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
@@ -165,3 +165,4 @@ def test_download_files_success_existing_file(monkeypatch, tmp_path, fake_window
     assert data == b"filecontent"
     assert file_path in fake_ctx.files
     assert file_path in fake_ctx.images
+

@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# Website: www.dlrp.ca                         #
 # GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
@@ -93,4 +93,5 @@ def test_truncate(mock_window):
     provider.storage = MagicMock()
     provider.storage.truncate_all = MagicMock(return_value=True)
     assert provider.truncate() is True
+
 

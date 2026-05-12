@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# Website: www.dlrp.ca                         #
 # GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
@@ -119,3 +119,4 @@ class Body:
             num_str = f" [{num}]"
         url, path = self.window.core.filesystem.extract_local_url(url)
         return f"\n{trans('chat.prefix.file')}{num_str}: {path}\n"
+

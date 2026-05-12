@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# Website: www.dlrp.ca                         #
 # GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
@@ -90,4 +90,5 @@ class TxtFileProvider(BaseProvider):
                 os.remove(os.path.join(path, f))
         except Exception as e:
             self.window.core.debug.log(e)
+
 

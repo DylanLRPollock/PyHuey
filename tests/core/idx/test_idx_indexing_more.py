@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# Website: www.dlrp.ca                         #
 # GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
@@ -437,3 +437,4 @@ def test_stop_enabled_and_is_stopped(indexing, window):
     assert indexing.stop_enabled() is True
     window.controller.idx.is_stopped = Mock(return_value=True)
     assert indexing.is_stopped() is True
+

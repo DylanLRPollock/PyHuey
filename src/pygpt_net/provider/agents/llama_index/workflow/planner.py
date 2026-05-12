@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# Website: www.dlrp.ca                         #
 # GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
@@ -847,3 +847,4 @@ class PlannerWorkflow(Workflow):
 
         await self._emit_text(ctx, f"\n\n`{trans('agent.planner.ui.plan_execution_finished')}`", agent_name=execute_label)
         return FinalEvent(result=last_answer or trans("agent.planner.ui.plan_finished"))
+

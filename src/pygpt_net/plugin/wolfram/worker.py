@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# Website: www.dlrp.ca                         #
 # GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
@@ -549,3 +549,4 @@ class Worker(BaseWorker):
         # Use Simple API to get a ready image
         simple_res = self._call_cmd("wa_simple", {"query": q, "out": out})
         return self.make_response(item, simple_res.get("data") or simple_res)
+

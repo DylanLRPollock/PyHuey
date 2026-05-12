@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# Website: www.dlrp.ca                         #
 # GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
@@ -326,3 +326,4 @@ def test_execute_internal_override_locked():
     inp.execute(text="internal", force=False, reply=False, internal=True, prev_ctx=None, multimodal_ctx=mm_ctx)
     win.controller.kernel.resume.assert_called_once()
     win.controller.chat.text.send.assert_called_once()
+

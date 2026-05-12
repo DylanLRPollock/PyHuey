@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# Website: www.dlrp.ca                         #
 # GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
@@ -53,4 +53,5 @@ class SettingsDialog(BaseDialog):
         self.window.core.settings.active[self.id] = False
         self.window.controller.settings.close(self.id)
         self.window.controller.settings.update()
+
 

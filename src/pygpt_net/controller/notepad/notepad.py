@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# Website: www.dlrp.ca                         #
 # GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
@@ -401,3 +401,4 @@ class Notepad:
             widget = self.window.ui.notepad.get(tab.data_id)
             if widget is not None:
                 QTimer.singleShot(100, widget.textarea.setFocus)
+

@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# Website: www.dlrp.ca                         #
 # GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
@@ -94,4 +94,5 @@ def test_build(mock_window_conf):
     assert messages[1]['content'] == 'user message'
     assert messages[2]['content'] == 'AI message'
     assert messages[3]['content'] == 'test_prompt'
+
 

@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# Website: www.dlrp.ca                         #
 # GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
@@ -74,3 +74,4 @@ def test_get_choices_with_filter(provider):
     choices = provider.get_choices(type="A")
     expected = [{"a": "Alpha"}, {"c": "Gamma"}]
     assert choices == expected
+

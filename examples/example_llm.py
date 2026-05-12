@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# Website: www.dlrp.ca                         #
 # GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
@@ -166,4 +166,5 @@ class ExampleLlm(BaseLLM):
                 "args": config,
             })
         return OpenAIEmbedding(**args)  # <--- pass all parsed args from model config to the provider
+
 

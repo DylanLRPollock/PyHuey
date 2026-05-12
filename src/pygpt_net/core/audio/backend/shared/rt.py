@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# Website: www.dlrp.ca                         #
 # GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
@@ -50,3 +50,4 @@ def build_output_volume_event(value: int) -> RealtimeEvent:
         RealtimeEvent.RT_OUTPUT_AUDIO_VOLUME_CHANGED,
         {"volume": int(value)}
     )
+

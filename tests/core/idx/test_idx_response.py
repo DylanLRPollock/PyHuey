@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# Website: www.dlrp.ca                         #
 # GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
@@ -95,3 +95,4 @@ def test_from_llm_stream_sets_stream_and_clears_output():
     r.from_llm_stream(ctx, model=Mock(), llm=Mock(), response=response)
     ctx.set_output.assert_called_once_with("", "")
     assert ctx.stream is response
+

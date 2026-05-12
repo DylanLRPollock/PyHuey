@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# Website: www.dlrp.ca                         #
 # GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
@@ -330,3 +330,4 @@ class UploadedFileList(BaseList):
         if idx >= 0:
             self.restore_after_ctx_menu = False
             self.window.controller.assistant.files.delete(idx)
+

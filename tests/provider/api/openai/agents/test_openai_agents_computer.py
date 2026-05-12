@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# Website: www.dlrp.ca                         #
 # GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
@@ -230,3 +230,4 @@ def test_run_stopped(dummy_window, dummy_bridge, dummy_ctx):
     dummy_bridge.on_stop.assert_called_once_with(dummy_ctx)
     assert new_items == []
     assert response_id is None
+

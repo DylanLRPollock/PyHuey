@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# Website: www.dlrp.ca                         #
 # GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
@@ -171,4 +171,5 @@ def test_toggle_loop_false(mock_window):
     common.toggle_loop(False)
     mock_window.core.config.set.assert_called_once_with('agent.llama.loop.enabled', False)
     mock_window.core.config.save.assert_called_once()
+
 

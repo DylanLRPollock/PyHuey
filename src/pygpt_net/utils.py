@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# Website: www.dlrp.ca                         #
 # GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
@@ -494,3 +494,4 @@ def short_num(value,
     out = f"{d:.{decimals}f}"
     out = _strip_trailing_zeros(out).replace(".", decimal_sep)
     return f"{sign}{out}{suffixes[idx]}"
+

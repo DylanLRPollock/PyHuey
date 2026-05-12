@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# Website: www.dlrp.ca                         #
 # GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
@@ -85,3 +85,4 @@ def test_build_content_with_empty_string_with_audio(audio_instance):
     assert result[0]["type"] == "input_audio"
     assert result[0]["input_audio"]["data"] == expected_encoded
     assert result[0]["input_audio"]["format"] == "ogg"
+

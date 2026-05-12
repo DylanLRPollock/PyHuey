@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# Website: www.dlrp.ca                         #
 # GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
@@ -28,5 +28,6 @@ class PluginList(BaseList):
         idx = val.row()
         self.window.ui.tabs['plugin.settings'].setCurrentIndex(idx)
         self.window.controller.plugins.set_by_tab(idx)
+
 
 

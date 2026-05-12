@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# Website: www.dlrp.ca                         #
 # GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
@@ -178,4 +178,5 @@ class HuggingFaceApiLLM(BaseLLM):
         if ('OPENAI_API_KEY' not in os.environ
                 and (window.core.config.get('api_key') is None or window.core.config.get('api_key') == "")):
             os.environ['OPENAI_API_KEY'] = "_"
+
 

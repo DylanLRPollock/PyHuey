@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# Website: www.dlrp.ca                         #
 # GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
@@ -636,3 +636,4 @@ class VideoWorker(QRunnable):
             return base
         # Keep the user's original prompt intact and add clear constraint instructions.
         return (base + ("\n" if base else "") + f"Negative prompt: {neg}").strip()
+

@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# Website: www.dlrp.ca                         #
 # GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
@@ -44,3 +44,4 @@ class RealtimeEvent(BaseEvent):
     RT_INPUT_AUDIO_DELTA = "rt.input.audio.delta"
     RT_INPUT_AUDIO_MANUAL_START = "rt.input.audio.manual.start"
     RT_INPUT_AUDIO_MANUAL_STOP = "rt.input.audio.manual.stop"
+

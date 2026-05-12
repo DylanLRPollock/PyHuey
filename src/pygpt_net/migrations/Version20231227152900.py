@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# Website: www.dlrp.ca                         #
 # GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
@@ -85,4 +85,5 @@ class Version20231227152900(BaseMigration):
             content TEXT,
             is_deleted BOOLEAN NOT NULL CHECK (is_deleted IN (0, 1))
         );"""))
+
 

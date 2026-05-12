@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# Website: www.dlrp.ca                         #
 # GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
@@ -36,3 +36,4 @@ def apply_turn_mode_google(live_cfg: dict, mode: TurnMode):
     ri = live_cfg.setdefault("realtime_input_config", {})
     aad = ri.setdefault("automatic_activity_detection", {})
     aad["disabled"] = (mode != TurnMode.AUTO)
+

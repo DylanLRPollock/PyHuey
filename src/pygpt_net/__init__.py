@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# Website: www.dlrp.ca                         #
 # GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
@@ -29,5 +29,6 @@ __email__ = "info@github.com/DylanLRPollock/PyHuey"
 __donate_coffee__ = "https://github.com/DylanLRPollock/PyHuey/donate/buymeacoffee"
 __donate_paypal__ = "https://github.com/DylanLRPollock/PyHuey/donate/paypal"
 __donate_github__ = "https://github.com/sponsors/szczyglis-dev"
+
 
 

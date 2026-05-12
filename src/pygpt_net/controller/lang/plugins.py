@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# Website: www.dlrp.ca                         #
 # GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
@@ -104,3 +104,4 @@ class Plugins:
         idx = settings_tab.currentIndex()
         win.plugin_settings.update_list('plugin.list', plugins_dict)
         ctrl_plugins.set_by_tab(idx)
+

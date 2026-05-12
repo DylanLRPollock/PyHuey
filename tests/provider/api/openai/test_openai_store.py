@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# Website: www.dlrp.ca                         #
 # GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
@@ -330,3 +330,4 @@ def test_import_store_files(store):
     fake_client.vector_stores.files.list.assert_called_once()
     store.get_file.assert_called_once_with("f1")
     store.window.core.remote_store.openai.files.insert.assert_called_once_with("s1", "file_data")
+

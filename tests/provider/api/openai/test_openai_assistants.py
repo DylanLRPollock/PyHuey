@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# Website: www.dlrp.ca                         #
 # GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
@@ -338,3 +338,4 @@ def test_import_all(assistants_obj, fake_window):
     assert "a1" in result
     assert "a2" in result
     result["a1"].add_function.assert_called_once_with("func1", json.dumps({"p": "v"}), "Func desc")
+

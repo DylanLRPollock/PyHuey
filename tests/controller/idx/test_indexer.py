@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# Website: www.dlrp.ca                         #
 # GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
@@ -185,3 +185,4 @@ def test_handle_finished_file(mock_window):
     idx.update_idx_status.assert_called_once_with("base")
     mock_window.core.idx.append.assert_called_once_with("base", files)
     mock_window.controller.idx.after_index.assert_called_once_with("base")
+

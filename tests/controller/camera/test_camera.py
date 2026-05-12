@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# Website: www.dlrp.ca                         #
 # GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
@@ -215,4 +215,5 @@ def test_blank_screen(mock_window):
         camera.blank_screen()
         mock_pixmap.assert_called_once()
         mock_window.ui.nodes['video.preview'].video.setPixmap.assert_called_once()
+
 

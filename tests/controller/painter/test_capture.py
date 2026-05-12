@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# Website: www.dlrp.ca                         #
 # GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
@@ -71,5 +71,6 @@ def test_attach(mock_window):
     mock_window.core.attachments.new.assert_called_once()
     mock_window.core.attachments.save.assert_called_once()
     mock_window.controller.attachment.update.assert_called_once()
+
 
 

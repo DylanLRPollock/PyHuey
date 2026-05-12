@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# Website: www.dlrp.ca                         #
 # GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
@@ -77,3 +77,4 @@ def test_set_items_replaces_previous_items_when_not_mocked():
     bag.set_items(new_items)
     assert bag.items is new_items
     assert bag.count_items() == 1
+

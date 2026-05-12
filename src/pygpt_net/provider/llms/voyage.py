@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# Website: www.dlrp.ca                         #
 # GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
@@ -48,3 +48,4 @@ class VoyageEmbeddingWithProxy(VoyageEmbedding):
     async def aget_text_embedding_batch(self, texts: List[str], show_progress: bool = False):
         with ProxyEnv(self._proxy):
             return await super().aget_text_embedding_batch(texts, show_progress=show_progress)
+

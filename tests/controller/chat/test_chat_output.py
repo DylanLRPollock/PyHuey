@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# Website: www.dlrp.ca                         #
 # GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
@@ -45,4 +45,5 @@ def test_handle_complete(mock_window):
     mock_window.core.ctx.post_update.assert_called_once()
     mock_window.core.ctx.store.assert_called_once()
     mock_window.controller.ctx.update_ctx.assert_called_once()
+
 

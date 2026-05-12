@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# Website: www.dlrp.ca                         #
 # GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
@@ -306,8 +306,8 @@ class Config:
                 print(f" {Color.BOLD}PyHuey    {v}{Color.ENDC} build {build} ({os_name}, {architecture})")
                 print(" Author:  Marcin Szczygliński")
                 print(" GitHub:  https://github.com/DylanLRPollock/PyHuey")
-                print(" Website: https://github.com/DylanLRPollock/PyHuey")
-                print(" Email:   info@github.com/DylanLRPollock/PyHuey")
+                print(" Website: www.dlrp.ca")
+                print(" Email:   admin@dlrp.ca")
                 print("===================================================")
                 print("")
                 print(f"{Color.BOLD}Initializing...{Color.ENDC}")
@@ -612,3 +612,4 @@ class Config:
         :param filename: filename
         """
         self.provider.save(self.data, filename)
+

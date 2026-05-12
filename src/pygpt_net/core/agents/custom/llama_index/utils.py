@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# Website: www.dlrp.ca                         #
 # GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
@@ -251,3 +251,4 @@ def strip_role_prefixes(text: str) -> str:
         return ""
     import re
     return re.sub(r"^\s*(assistant|user|system)\s*:\s*", "", text.strip(), flags=re.IGNORECASE)
+

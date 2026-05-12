@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# Website: www.dlrp.ca                         #
 # GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
@@ -54,4 +54,5 @@ class LoggerDialog(BaseDialog):
         self.window.controller.debug.is_logger = False
         self.window.controller.debug.close_logger()
         self.window.controller.debug.update()
+
 

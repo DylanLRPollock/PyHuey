@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# Website: www.dlrp.ca                         #
 # GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
@@ -53,4 +53,5 @@ class TabsDebug:
         debug.add(self.id, '(last) meta.id => PID', str(ctx_output.last_pids))
         debug.add(self.id, '(last) PID', str(ctx_output.last_pid))
         debug.end(self.id)
+
 

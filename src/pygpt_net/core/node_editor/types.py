@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# Website: www.dlrp.ca                         #
 # GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
@@ -88,3 +88,4 @@ class NodeTypeRegistry:
             ]
         ))
         # Tip: to allow multiple connections to an input or output, set allowed_inputs/allowed_outputs to -1.
+

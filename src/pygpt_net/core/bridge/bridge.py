@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# Website: www.dlrp.ca                         #
 # GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
@@ -283,4 +283,5 @@ class Bridge:
                 self.window.core.debug.debug("RPM limit: sleep for {} seconds".format(sleep_time))
                 time.sleep(sleep_time)
         self.last_call = now
+
 

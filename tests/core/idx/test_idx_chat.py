@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# Website: www.dlrp.ca                         #
 # GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
@@ -158,4 +158,5 @@ def test_get_custom_prompt(mock_window):
     chat = Chat(mock_window)
     custom = chat.get_custom_prompt("test")
     assert custom is not None
+
 

@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# Website: www.dlrp.ca                         #
 # GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
@@ -104,4 +104,5 @@ def test_get_capture_dir(mock_window):
     common = Common(mock_window)
     mock_window.core.config.get_user_dir = MagicMock(return_value='/tmp/pygpt/capture')
     assert common.get_capture_dir() == '/tmp/pygpt/capture'
+
 

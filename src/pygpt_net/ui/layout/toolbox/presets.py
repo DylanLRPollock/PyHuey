@@ -3,7 +3,7 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# Website: www.dlrp.ca                         #
 # GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
@@ -207,3 +207,4 @@ class Presets:
         # Clear one-shot pending scroll values and re-enable user interaction
         view.clear_pending_scroll()
         view.end_model_update()
+

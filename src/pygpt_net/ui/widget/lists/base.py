@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# Website: www.dlrp.ca                         #
 # GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
@@ -134,4 +134,5 @@ class BaseList(QTreeView):
         if self._pending_h_scroll_value is not None:
             self.horizontalScrollBar().setValue(self._pending_h_scroll_value)
         # do not clear here; let caller decide when to clear
+
 

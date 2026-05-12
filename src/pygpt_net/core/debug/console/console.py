@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# Website: www.dlrp.ca                         #
 # GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
@@ -150,3 +150,4 @@ class Console:
             "  quit|exit - close application\n"
             "  JS debug (window.*): STREAM_DEBUG|MD_LANG_DEBUG|CM_DEBUG\n"
         )
+

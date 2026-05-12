@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# Website: www.dlrp.ca                         #
 # GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
@@ -674,3 +674,4 @@ class Plugin(BasePlugin):
         if prompt is not None and prompt.strip() != "":
             prompt += "\n\n"
         return prompt + self.get_option_value("prompt")
+

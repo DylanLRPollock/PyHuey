@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# Website: www.dlrp.ca                         #
 # GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
@@ -204,3 +204,4 @@ class Common:
             self.window.core.attachments.context.reset_by_meta_id(meta_id, delete_files=True)
             if self.window.core.ctx.get_current() == meta_id:
                 self.window.controller.ctx.load(meta_id)
+

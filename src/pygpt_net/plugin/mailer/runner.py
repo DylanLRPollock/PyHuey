@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# Website: www.dlrp.ca                         #
 # GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
@@ -283,4 +283,5 @@ class Runner:
         full_msg = '[SMTP]' + ' ' + str(msg)
         if self.signals is not None:
             self.signals.log.emit(full_msg)
+
 

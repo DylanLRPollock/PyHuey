@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# Website: www.dlrp.ca                         #
 # GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
@@ -119,5 +119,6 @@ def test_set_param_execption(mock_window):
     db.is_installed = MagicMock(return_value=True)
     db.set_param("test", "test")
     db.engine.begin.assert_called_once()
+
 
 

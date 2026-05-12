@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# Website: www.dlrp.ca                         #
 # GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
@@ -95,3 +95,4 @@ class ModelsImporter:
         self.window.ui.dialog[self.dialog_id] = ModelImporterOllamaDialog(self.window, self.dialog_id)
         self.window.ui.dialog[self.dialog_id].setLayout(layout)
         self.window.ui.dialog[self.dialog_id].setWindowTitle(trans('dialog.models.importer'))
+

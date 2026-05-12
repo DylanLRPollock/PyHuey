@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# Website: www.dlrp.ca                         #
 # GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
@@ -23,9 +23,9 @@ def _splash_main(conn, title="PyHuey", message="Loading…"):
     STRING_MAPPING = {
         "en": {
             "init": "Initializing...",
-            "support": "Support the project:",
-            "github": "⭐ Star on GitHub",
-            "donate": "☕ Buy me a coffee",
+            "support": "",
+            "github": "",
+            "donate": "",
         },
         "pl": {
             "init": "Inicjalizacja...",
@@ -203,9 +203,9 @@ def _splash_main(conn, title="PyHuey", message="Loading…"):
 
     strings = STRING_MAPPING.get(lang, STRING_MAPPING["en"])
     msg_init = strings.get("init", message)
-    msg_support = strings.get("support", "Support the project:")
-    msg_github = strings.get("github", "⭐ Star on GitHub")
-    msg_donate = strings.get("donate", "☕ Buy me a coffee")
+    msg_support = strings.get("support", "")
+    msg_github = strings.get("github", "")
+    msg_donate = strings.get("donate", "")
 
     try:
         # Enable HiDPI (safe defaults)
@@ -484,3 +484,4 @@ def _start_preloader(title="PyHuey", message="Loading…"):
         return _Preloader(proc, parent_conn)
     except Exception:
         return None
+

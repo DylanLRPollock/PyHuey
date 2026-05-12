@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# Website: www.dlrp.ca                         #
 # GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
@@ -23,4 +23,5 @@ class Version20231230095000(BaseMigration):
         conn.execute(text("""
         ALTER TABLE notepad ADD COLUMN is_initialized BOOLEAN NOT NULL DEFAULT 0 CHECK (is_initialized IN (0, 1));
         """))
+
 

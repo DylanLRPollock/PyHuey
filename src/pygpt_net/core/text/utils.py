@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# Website: www.dlrp.ca                         #
 # GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
@@ -133,3 +133,4 @@ def elide_filename(name_or_path: str, max_len: int = 45, ellipsis: str = "...", 
     tail = stem[-tail_len:] if tail_len <= len(stem) else stem
     out = f"{head}{ellipsis}{tail}{ext}"
     return os.path.join(dirpart, out) if keep_dir else out
+

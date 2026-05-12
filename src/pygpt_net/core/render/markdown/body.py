@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# Website: www.dlrp.ca                         #
 # GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
@@ -208,4 +208,5 @@ class Body:
         icon = os.path.join(self.window.core.config.get_app_path(), "data", "icons", "chat", icon + ".png")
         return '<img src="{}" width="20" height="20" title="{}" alt="{}">'.format(icon, title, title)
         # return '<img src=":/icons/{}.svg" width="25" title="{}">'.format(icon, title)
+
 

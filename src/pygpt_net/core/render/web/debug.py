@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# Website: www.dlrp.ca                         #
 # GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
@@ -215,3 +215,4 @@ def parse_bytes(val) -> int:
 def mem_used_bytes() -> int:
     import os, psutil
     return psutil.Process(os.getpid()).memory_info().rss  # bytes (RSS)
+

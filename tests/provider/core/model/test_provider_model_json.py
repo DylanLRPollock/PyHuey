@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# Website: www.dlrp.ca                         #
 # GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
@@ -107,4 +107,5 @@ def test_save(mock_window):
             mock_json_dumps.assert_called_once_with(data, indent=4)
             mocked_file.assert_called_once_with(path, 'w', encoding="utf-8")
             mocked_file().write.assert_called_once_with(dump)
+
 

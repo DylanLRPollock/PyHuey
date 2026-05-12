@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# Website: www.dlrp.ca                         #
 # GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
@@ -165,4 +165,5 @@ def test_append_chunk(mock_window):
     meta = MagicMock()
     render.append_chunk(meta, ctx, "test")
     render.markdown_renderer.append_chunk.assert_called_once()
+
 

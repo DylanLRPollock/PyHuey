@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# Website: www.dlrp.ca                         #
 # GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
@@ -152,3 +152,4 @@ class Debug:
         menu.addAction(m['debug.chrome.devtools'])
 
         m['debug.render'].setChecked(bool(win.core.config.get('debug.render')))
+

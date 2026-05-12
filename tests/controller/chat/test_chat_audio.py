@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# Website: www.dlrp.ca                         #
 # GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
@@ -140,3 +140,4 @@ def test_handle_input(tmp_path, audio_obj, dummy_window):
         assert bridge_ctx.multimodal_ctx.audio_data == b"input data"
         assert bridge_ctx.multimodal_ctx.is_audio_input is True
         dummy_window.dispatch.assert_called_once_with(fake_event)
+

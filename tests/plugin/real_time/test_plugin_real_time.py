@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# Website: www.dlrp.ca                         #
 # GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
@@ -45,5 +45,6 @@ def test_handle_system_prompt(mock_window):
     plugin.options["tpl"]["value"] = "Current time is PLACEHOLDER_HERE"
     plugin.handle(event)
     assert event.data["value"] == "prev prompt\n\nCurrent time is PLACEHOLDER_HERE"
+
 
 

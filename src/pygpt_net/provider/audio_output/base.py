@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# Website: www.dlrp.ca                         #
 # GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
@@ -69,4 +69,5 @@ class BaseProvider:
         """
         return "Google API key and CX ID are required for this command to work. " \
                "Please go to the plugin settings and enter your API key and CX ID."
+
 

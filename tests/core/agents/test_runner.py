@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# Website: www.dlrp.ca                         #
 # GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
@@ -162,3 +162,4 @@ def test_agent_openai(dummy_window, dummy_context, dummy_signals):
     runner.openai_workflow.run = fake_openai_run
     result = runner.call(dummy_context, extra={"agent_provider": "openai"}, signals=dummy_signals)
     assert result is True
+

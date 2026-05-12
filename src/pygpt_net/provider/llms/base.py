@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# Website: www.dlrp.ca                         #
 # GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
@@ -240,4 +240,5 @@ class BaseLLM:
         args["http_client"] = httpx.Client(**common_kwargs)
         args["async_http_client"] = httpx.AsyncClient(**common_kwargs)
         return args
+
 

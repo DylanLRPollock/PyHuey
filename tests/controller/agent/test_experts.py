@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://github.com/DylanLRPollock/PyHuey                         #
+# Website: www.dlrp.ca                         #
 # GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
 # Created By  : Marcin Szczygliński                  #
@@ -210,3 +210,4 @@ def test_handle_when_disabled(dummy_window):
 def test_log(experts, dummy_window):
     experts.log("test message")
     dummy_window.core.debug.info.assert_called_with("test message")
+
