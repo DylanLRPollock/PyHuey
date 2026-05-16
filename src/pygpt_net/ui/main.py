@@ -2,10 +2,10 @@
 # -*- coding: utf-8 -*-
 # ================================================== #
 # This file is a part of PYGPT package               #
-# Website: https://pygpt.net                         #
-# GitHub:  https://github.com/szczyglis-dev/py-gpt   #
+# Website: www.dlrp.ca                         #
+# GitHub:  https://github.com/DylanLRPollock/PyHuey   #
 # MIT License                                        #
-# Created By  : Marcin Szczygliński                  #
+# Created By  : Dylan L.R. Pollock                  #
 # Updated Date: 2026.01.20 20:00:00                  #
 # ================================================== #
 
@@ -376,7 +376,7 @@ class MainWindow(QMainWindow, QtStyleTools):
         self.core.presets.save_all()
         print("Exiting...")
         print("")
-        print(f"⭐☕ {trans('exit.msg')} https://pygpt.net/#donate ☕⭐")
+        print("PyHuey session closed - www.dlrp.ca")
         print("")
 
     def changeEvent(self, event):
