@@ -7,7 +7,8 @@
 # Upstream: https://github.com/szczyglis-dev/py-gpt  #
 # ================================================== #
 
-from PySide6.QtGui import QAction, QIcon
+from PySide6.QtCore import QUrl
+from PySide6.QtGui import QAction, QDesktopServices, QIcon
 
 
 class About:
@@ -28,16 +29,18 @@ class About:
 
         icon_public = QIcon(":/icons/public_filled.svg")
 
-        m["info.website"] = QAction(icon_public, "dlrp.ca", w)
+        m["info.website"] = QAction(icon_public, "www.dlrp.ca", w)
         m["info.github"] = QAction(icon_public, "GitHub", w)
 
-        dlg_info = w.controller.dialogs.info
-
         m["info.website"].triggered.connect(
-            lambda checked=False, i=dlg_info: i.goto_website()
+            lambda checked=False: QDesktopServices.openUrl(
+                QUrl("https://www.dlrp.ca")
+            )
         )
         m["info.github"].triggered.connect(
-            lambda checked=False, i=dlg_info: i.goto_github()
+            lambda checked=False: QDesktopServices.openUrl(
+                QUrl("https://github.com/DylanLRPollock/PyHuey")
+            )
         )
 
         m["menu.about"] = w.menuBar().addMenu("About")
