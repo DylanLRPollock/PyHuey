@@ -356,6 +356,29 @@ Record which command actually works in `platform/windows/huey/` build notes.
 
 PyHuey’s active cockpit branch is Windows 11 Pro with Python 3.13.x.
 
+### Windows shell requirement
+
+PowerShell 7.x (`pwsh`) is the supported shell for Windows 11 setup, update, validation, and maintenance commands.
+
+- Use PowerShell 7 stable/LTS for repeatable setup work.
+- Windows PowerShell 5.1 may work for simple fallback commands, but it is not the primary supported shell.
+- PowerShell 7 Preview may be used for testing, but it is not the baseline requirement.
+- PowerShell 7 installs side-by-side with Windows PowerShell 5.1.
+
+Install or update PowerShell 7 with WinGet:
+
+```powershell
+winget install --id Microsoft.PowerShell --source winget
+```
+
+Verify:
+
+```powershell
+pwsh --version
+$PSVersionTable.PSVersion
+```
+
+
 Recommended Windows working layout:
 
 ```text
