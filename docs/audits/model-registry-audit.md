@@ -14,8 +14,8 @@ PyHuey loads the workdir copy during normal runtime after the initial install/co
 
 ## Current registry summary
 
-- Total model entries: 105
-- Unique base model IDs: 92
+- Total model entries: 113
+- Unique base model IDs: pending recount
 - Providers:
   - OpenAI
   - Anthropic
