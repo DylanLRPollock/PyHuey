@@ -2549,7 +2549,6 @@
             "provider": "openai",
             "tool_calls": true
         },
-        
         "gpt-5.2-high": {
             "id": "gpt-5.2",
             "name": "gpt-5.2 (high)",
