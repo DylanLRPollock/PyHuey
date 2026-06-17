@@ -40,12 +40,91 @@ set_env("QTWEBENGINE_CHROMIUM_FLAGS", "--enable-gpu-rasterization", True)
 
 # disable warnings
 set_env("TRANSFORMERS_NO_ADVISORY_WARNINGS", 1)
-set_env("QT_LOGGING_RULES", "qt.multimedia.ffmpeg=false;qt.qpa.fonts=false", allow_overwrite=True)
+set_env(
+    "QT_LOGGING_RULES",
+    "qt.multimedia.ffmpeg=false;"
+    "qt.qpa.fonts=false;"
+    "qt.gui.fonts=false;"
+    "qt.qpa.window=false;"
+    "qt.qpa.windows=false",
+    allow_overwrite=True,
+)
 
 if platform.system() == 'Windows':
     set_env("QT_MEDIA_BACKEND", "windows")
 
 _original_open = builtins.open
+_original_print = builtins.print
+
+
+def print_wrapper(*args, **kwargs):
+    """
+    Format normal PyHuey startup output and suppress noisy upstream traces.
+
+    Enable full upstream workdir traces with:
+        $env:PYHUEY_VERBOSE_WORKDIR = "1"
+    """
+    raw_message = " ".join(str(arg) for arg in args)
+    message = raw_message.strip()
+
+    if os.environ.get("PYHUEY_VERBOSE_WORKDIR") != "1":
+        if message.startswith("FORCE using workdir:"):
+            return
+
+    # The boxed startup banner replaces the old single-line banner.
+    if message.startswith("Monkey-Head-Project  PyHuey Build"):
+        return
+
+    replacements = {
+        "Initializing...": "  [PyHuey] Initializing...",
+        "Checking for updates...": "  [Updates] Checking for updates...",
+        "No updates available.": "  [Updates] No updates available.",
+        "Closing...": "  [PyHuey] Saving session state...",
+        "Shutting down...": "  [PyHuey] Shutdown requested.",
+        "Exiting...": "  [PyHuey] Exiting...",
+    }
+
+    if message in replacements:
+        return _original_print(replacements[message], **kwargs)
+
+    if message.startswith("[SIG] Received signal:"):
+        return
+
+    quiet_shutdown_lines = {
+        "Sending terminate signal to all...",
+        "Saving ctx groups...",
+        "Saving tabs...",
+        "Saving notepad...",
+        "Saving calendar...",
+        "Saving drawing...",
+        "Saving plugins config...",
+        "Saving tools...",
+        "Closing clients...",
+        "Saving layout state...",
+        "Stopping timers...",
+        "Saving config...",
+        "Saving presets...",
+    }
+
+    if (
+        os.environ.get("PYHUEY_VERBOSE_SHUTDOWN") != "1"
+        and message in quiet_shutdown_lines
+    ):
+        return
+
+    if message.startswith("Loaded config:"):
+        return _original_print("  [Config] " + message.removeprefix("Loaded config:").strip(), **kwargs)
+
+    if message.startswith("Loaded models:"):
+        return _original_print("  [Models] " + message.removeprefix("Loaded models:").strip(), **kwargs)
+
+    if message.startswith("Setting environment vars:"):
+        return _original_print("  [Env] " + message.removeprefix("Setting environment vars:").strip(), **kwargs)
+
+    return _original_print(*args, **kwargs)
+
+
+builtins.print = print_wrapper
 
 def open_wrapper(file, mode='r', *args, **kwargs):
     """
@@ -195,10 +274,14 @@ def run(**kwargs):
 
     mp.freeze_support()  # required for PyInstaller
 
+    from pygpt_net.huey_branding import SPLASH_MESSAGE, SPLASH_TITLE
+    from pygpt_net.huey_license import require_license_acceptance
+
+    require_license_acceptance()
+
     # Start lightweight splash in a separate process (no interference with the main Qt app)
-    from pygpt_net.__init__ import __version__
     from pygpt_net.preload import _start_preloader
-    _preloader = _start_preloader(title="PyGPT", message=f"v{__version__}")
+    _preloader = _start_preloader(title=SPLASH_TITLE, message=SPLASH_MESSAGE)
 
     from pygpt_net.launcher import Launcher
 
@@ -284,7 +367,6 @@ def run(**kwargs):
         from pygpt_net.provider.llms.open_router import OpenRouterLLM
 
         # vector store providers (llama-index)
-        from pygpt_net.provider.vector_stores.chroma import ChromaProvider
         from pygpt_net.provider.vector_stores.elasticsearch import ElasticsearchProvider
         from pygpt_net.provider.vector_stores.pinecode import PinecodeProvider
         from pygpt_net.provider.vector_stores.qdrant import QdrantProvider
@@ -495,10 +577,9 @@ def run(**kwargs):
                 launcher.add_llm(llm)
 
         # register base vector store providers (llama-index)
-        launcher.add_vector_store(ChromaProvider())
+        launcher.add_vector_store(QdrantProvider())
         launcher.add_vector_store(ElasticsearchProvider())
         launcher.add_vector_store(PinecodeProvider())
-        launcher.add_vector_store(QdrantProvider())
         launcher.add_vector_store(RedisProvider())
         launcher.add_vector_store(SimpleProvider())
 
