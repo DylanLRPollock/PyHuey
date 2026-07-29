@@ -3,22 +3,12 @@
 #
 # Target branch:
 #   - Python: 3.13.x
-#   - Primary cockpit host: Windows 11 Pro
-#   - Also retains Linux/macOS markers inherited from upstream PyGPT where useful.
+#   - Primary cockpit host: Windows 11 Pro / Debian 14 (Forky)
+#   - Fully pinned for reproducible PyHuey cockpit installs.
 #
 # Source basis:
 #   - requirements-latest.txt: Python 3.13 marker-normalized refresh
 #   - requirements-known-good-with-redis-freeze.txt: working PyHuey freeze with Redis vector-store overlay
-#
-# Notes:
-#   - This file is intentionally fully pinned for reproducible PyHuey cockpit installs.
-#   - The working freeze used a local patched wheel for llama-index-vector-stores-redis 0.8.0.
-#     For release safety, the main requirements.txt uses a portable version pin:
-#       llama-index-vector-stores-redis==0.8.0
-#     If the patched wheel is required, install it from a local wheelhouse or use the included
-#     requirements-local-redis-wheel.txt overlay.
-#   - Keep API keys, local config, and private profiles out of Git.
-#   - PyHuey is cockpit/tooling. It is not Huey Brain sovereignty or the Legion Go V1 proof loop.
 
 aiohappyeyeballs==2.6.1
 aiohttp==3.13.3
@@ -50,6 +40,7 @@ certifi==2026.1.4
 cffi==2.0.0
 charset-normalizer==3.4.4
 chromedriver-autoinstaller==0.6.4
+chromadb==1.1.0
 click==8.3.1
 colorama==0.4.6
 coloredlogs==15.0.1
@@ -188,6 +179,7 @@ llama-index-readers-microsoft-onedrive==0.4.1
 llama-index-readers-twitter==0.4.1
 llama-index-readers-web==0.5.6
 llama-index-utils-huggingface==0.4.1
+llama-index-vector-stores-chroma==0.5.5
 llama-index-vector-stores-elasticsearch==0.5.1
 llama-index-vector-stores-pinecone==0.7.1
 llama-index-vector-stores-qdrant==0.10.1
